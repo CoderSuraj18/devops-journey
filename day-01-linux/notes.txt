@@ -19,9 +19,9 @@ WSL = Windows Subsystem for Linux
 
 It allows Linux environments to run inside Windows.
 
-My WSL terminal prompt looks similar to:
+Example WSL terminal prompt:
 
-suraj@LAPTOP-TLSMCMGT:~$
+devuser@linux-host:~$
 
 
 3. CURRENT DIRECTORY
@@ -39,7 +39,7 @@ pwd
 
 Output:
 
-/home/suraj
+/home/devuser
 
 
 4. LIST FILES
@@ -121,11 +121,11 @@ whoami
 
 Output:
 
-suraj
+devuser
 
 
 9. DATE
---------
+-------
 
 date
 
@@ -154,7 +154,7 @@ echo $PATH
 
 Some commands are built into the shell.
 
-Example:
+Examples:
 
 type pwd
 type cd
@@ -250,4 +250,4 @@ Understand:
 2. Why does it exist?
 3. How does it work?
 4. Where is it used?
-5. What happens behind the scenes?
+5. What happens behind the scenes? 
