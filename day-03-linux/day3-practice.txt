@@ -2,91 +2,112 @@
 DAY 3 - PRACTICAL WORK
 ========================================
 
-1. Created Linux-native practice directory:
+1. CREATED LINUX-NATIVE PRACTICE DIRECTORY
 
 mkdir day3-permissions
 cd day3-permissions
 
-2. Created test files:
+
+2. CREATED TEST FILES
 
 touch test.txt
 touch another.txt
 touch ownership-test.txt
 
-3. Checked permissions:
+
+3. CHECKED PERMISSIONS
 
 ls -l test.txt
 
 Result:
+
 -rw-r--r--
 
-4. Checked umask:
+
+4. CHECKED UMASK
 
 umask
 
 Result:
+
 0022
 
-5. Created directory:
+
+5. CREATED DIRECTORY
 
 mkdir testdir
 
 Result:
+
 drwxr-xr-x
 
-6. Changed permissions:
+
+6. CHANGED PERMISSIONS
 
 chmod 600 test.txt
 
 Result:
+
 -rw-------
 
-7. Changed permissions:
+
+7. CHANGED PERMISSIONS
 
 chmod 755 test.txt
 
 Result:
+
 -rwxr-xr-x
 
-8. Practiced symbolic chmod:
+
+8. PRACTICED SYMBOLIC CHMOD
 
 chmod g-w test.txt
 chmod o+w test.txt
 chmod o=r test.txt
 
-9. Checked current user:
+
+9. CHECKED CURRENT USER
 
 whoami
 
-Result:
-suraj
+Example Result:
 
-10. Checked UID, GID and groups:
+devuser
+
+
+10. CHECKED UID, GID AND GROUPS
 
 id
 
 UID:
+
 1000
 
 GID:
+
 1000
 
-11. Checked groups:
+
+11. CHECKED GROUPS
 
 groups
 
-Groups:
-suraj adm cdrom sudo dip plugdev users
+Example Groups:
 
-12. Changed group ownership:
+devuser adm cdrom sudo dip plugdev users
+
+
+12. CHANGED GROUP OWNERSHIP
 
 chgrp users ownership-test.txt
 
 Result:
 
--rw-r--r-- 1 suraj users ownership-test.txt
+-rw-r--r-- 1 devuser users ownership-test.txt
 
-13. Key learning:
+
+13. KEY LEARNING
 
 chmod → permissions
 chown → owner

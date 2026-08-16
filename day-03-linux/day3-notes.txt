@@ -2,6 +2,7 @@
 DAY 3 - LINUX PERMISSIONS, USERS & GROUPS
 ========================================
 
+
 1. LINUX FILE PERMISSIONS
 --------------------------
 
@@ -133,18 +134,27 @@ Operators:
 Examples:
 
 chmod u+x file
+
 Add execute permission to owner.
 
+
 chmod g-w file
+
 Remove write permission from group.
 
+
 chmod o+w file
+
 Add write permission to others.
 
+
 chmod o-r file
+
 Remove read permission from others.
 
+
 chmod o=r file
+
 Set Others permissions to read-only.
 
 Important:
@@ -201,7 +211,7 @@ Shows the current user.
 Example:
 
 whoami
-suraj
+devuser
 
 
 9. UID
@@ -213,9 +223,9 @@ Linux internally identifies users using numeric IDs.
 
 Example:
 
-uid=1000(suraj)
+uid=1000(devuser)
 
-This means the user suraj has UID 1000.
+This means the example user devuser has UID 1000.
 
 
 10. GROUPS
@@ -229,7 +239,7 @@ Shows the groups that the current user belongs to.
 
 Example:
 
-suraj adm cdrom sudo dip plugdev users
+devuser adm cdrom sudo dip plugdev users
 
 
 11. GID
@@ -239,7 +249,7 @@ GID = Group ID
 
 Example:
 
-gid=1000(suraj)
+gid=1000(devuser)
 
 This identifies the group with GID 1000.
 
@@ -253,8 +263,8 @@ Shows the current user's UID, GID, and group memberships.
 
 Example:
 
-uid=1000(suraj)
-gid=1000(suraj)
+uid=1000(devuser)
+gid=1000(devuser)
 groups=...
 
 
@@ -265,9 +275,9 @@ ls -l displays file ownership.
 
 Example:
 
--rw-r--r-- 1 suraj users file.txt
+-rw-r--r-- 1 devuser users file.txt
 
-The first suraj = owner
+The first devuser = owner
 users = group
 
 
