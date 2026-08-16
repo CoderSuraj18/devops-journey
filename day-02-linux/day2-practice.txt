@@ -1,0 +1,135 @@
+========================================
+DAY 2 - LINUX PRACTICE
+========================================
+
+1. CREATED DAY 2 WORKSPACE
+
+devops-scratch/
+└── day-02-linux/
+    └── projects/
+
+
+2. CREATED FILE
+
+Command:
+
+touch linux.txt
+
+Location:
+
+day-02-linux/projects/linux.txt
+
+
+3. ADDED CONTENT
+
+Day 2 linux file system
+
+
+4. CHECKED FILE
+
+Command:
+
+cat linux.txt
+
+Purpose:
+
+Displays file contents.
+
+
+5. NAVIGATION PRACTICE
+
+cd ..
+Moves one directory level up.
+
+cd ../..
+Moves two directory levels up.
+
+cd /
+Moves to root.
+
+cd ~
+Moves to user's home directory.
+
+
+6. ABSOLUTE PATH PRACTICE
+
+Example:
+
+/mnt/c/Devops-scratch/day-02-linux/projects/linux.txt
+
+
+7. RELATIVE PATH PRACTICE
+
+Example:
+
+linux.txt
+
+When already inside:
+
+/mnt/c/Devops-scratch/day-02-linux/projects/
+
+
+8. CURRENT DIRECTORY
+
+Command:
+
+pwd
+
+
+9. LISTING FILES
+
+Commands:
+
+ls
+ls -l
+ls -la
+
+
+10. DAY 2 COMPLETION
+
+Linux Filesystem Hierarchy:
+The Linux filesystem is a hierarchical structure that starts
+from the root directory (/).
+
+Absolute Path:
+A complete path that starts from the root directory (/)
+and identifies the exact location of a file or directory.
+
+Relative Path:
+A path that identifies a file or directory relative to the
+current working directory.
+
+Root Directory (/):
+The top-level directory in Linux. All other directories and
+files exist under it.
+
+Home Directory (~):
+The personal directory of a Linux user where their personal
+files and settings are normally stored.
+
+Parent Directory (..):
+Represents the directory one level above the current directory.
+
+Current Directory (.):
+Represents the directory you are currently working in.
+
+Files:
+Objects used to store data such as text, configuration,
+scripts, or application information.
+
+Directories:
+Containers used to organize files and other directories.
+
+cat:
+A command used to display the contents of a file.
+
+cd:
+A command used to change the current working directory.
+
+pwd:
+A command used to display the current working directory.
+
+ls:
+A command used to list files and directories.
+
+Status: Completed

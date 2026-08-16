@@ -1,0 +1,414 @@
+========================================
+DAY 3 - LINUX PERMISSIONS, USERS & GROUPS
+========================================
+
+1. LINUX FILE PERMISSIONS
+--------------------------
+
+Linux permissions control who can read, modify, or execute a file.
+
+Three basic permissions:
+
+r = Read
+w = Write
+x = Execute
+
+Permission groups:
+
+u = User / Owner
+g = Group
+o = Others
+a = All
+
+
+2. FILE TYPE
+------------
+
+The first character in ls -l output shows the file type.
+
+- = Regular file
+d = Directory
+l = Symbolic link
+
+Example:
+
+-rwxr-xr-x
+
+-    = Regular file
+rwx  = Owner permissions
+r-x  = Group permissions
+r-x  = Others permissions
+
+
+3. PERMISSION NUMBERS
+---------------------
+
+Linux represents permissions using numbers.
+
+r = 4
+w = 2
+x = 1
+
+Examples:
+
+rwx = 4 + 2 + 1 = 7
+rw- = 4 + 2 = 6
+r-x = 4 + 1 = 5
+r-- = 4
+-w- = 2
+--x = 1
+--- = 0
+
+
+4. COMMON NUMERIC PERMISSIONS
+-----------------------------
+
+755 = rwxr-xr-x
+
+Owner   = rwx = 7
+Group   = r-x = 5
+Others  = r-x = 5
+
+
+644 = rw-r--r--
+
+Owner   = rw- = 6
+Group   = r-- = 4
+Others  = r-- = 4
+
+
+700 = rwx------
+
+Owner   = rwx = 7
+Group   = --- = 0
+Others  = --- = 0
+
+
+600 = rw-------
+
+Owner   = rw- = 6
+Group   = --- = 0
+Others  = --- = 0
+
+
+5. CHMOD
+--------
+
+chmod = change mode
+
+chmod is used to change file or directory permissions.
+
+Numeric examples:
+
+chmod 600 file
+chmod 644 file
+chmod 700 file
+chmod 755 file
+
+Example:
+
+chmod 755 test.txt
+
+Changes the permissions to:
+
+-rwxr-xr-x
+
+
+6. SYMBOLIC CHMOD
+-----------------
+
+Permission targets:
+
+u = Owner
+g = Group
+o = Others
+a = All
+
+Operators:
+
++ = Add permission
+- = Remove permission
+= = Set exact permission
+
+Examples:
+
+chmod u+x file
+Add execute permission to owner.
+
+chmod g-w file
+Remove write permission from group.
+
+chmod o+w file
+Add write permission to others.
+
+chmod o-r file
+Remove read permission from others.
+
+chmod o=r file
+Set Others permissions to read-only.
+
+Important:
+
++ adds a permission.
+- removes a permission.
+= replaces the permissions for that category.
+
+
+7. UMASK
+--------
+
+umask controls which permissions are removed by default
+when new files and directories are created.
+
+Example:
+
+umask
+0022
+
+For regular files:
+
+Base permission = 666
+umask = 022
+
+666 - 022 = 644
+
+Therefore a new file normally gets:
+
+-rw-r--r--
+
+
+For directories:
+
+Base permission = 777
+umask = 022
+
+777 - 022 = 755
+
+Therefore a new directory normally gets:
+
+drwxr-xr-x
+
+
+8. USERS
+--------
+
+Linux is a multi-user operating system.
+
+whoami
+
+Shows the current user.
+
+Example:
+
+whoami
+suraj
+
+
+9. UID
+-------
+
+UID = User ID
+
+Linux internally identifies users using numeric IDs.
+
+Example:
+
+uid=1000(suraj)
+
+This means the user suraj has UID 1000.
+
+
+10. GROUPS
+----------
+
+Linux uses groups to manage permissions for multiple users.
+
+groups
+
+Shows the groups that the current user belongs to.
+
+Example:
+
+suraj adm cdrom sudo dip plugdev users
+
+
+11. GID
+-------
+
+GID = Group ID
+
+Example:
+
+gid=1000(suraj)
+
+This identifies the group with GID 1000.
+
+
+12. ID COMMAND
+--------------
+
+id
+
+Shows the current user's UID, GID, and group memberships.
+
+Example:
+
+uid=1000(suraj)
+gid=1000(suraj)
+groups=...
+
+
+13. FILE OWNERSHIP
+------------------
+
+ls -l displays file ownership.
+
+Example:
+
+-rw-r--r-- 1 suraj users file.txt
+
+The first suraj = owner
+users = group
+
+
+14. CHOWN
+---------
+
+chown = change owner
+
+Syntax:
+
+chown USER FILE
+
+Example:
+
+chown user file.txt
+
+Change both owner and group:
+
+chown user:group file.txt
+
+
+15. CHGRP
+---------
+
+chgrp = change group
+
+Syntax:
+
+chgrp GROUP FILE
+
+Example:
+
+chgrp users file.txt
+
+This changes the group but keeps the owner unchanged.
+
+
+16. CHMOD vs CHOWN vs CHGRP
+---------------------------
+
+chmod → changes permissions
+
+chown → changes owner
+
+chgrp → changes group
+
+
+17. PERMISSION EVALUATION
+-------------------------
+
+Linux evaluates permissions based on:
+
+Owner → Group → Others
+
+If the user is the owner:
+Owner permissions are used.
+
+If the user is not the owner but belongs to the file's group:
+Group permissions are used.
+
+If the user is neither the owner nor a member of the group:
+Others permissions are used.
+
+Permissions are NOT combined.
+
+Example:
+
+-rw-r-----
+
+Owner = rw-
+Group = r--
+Others = ---
+
+If a user is the owner AND a member of the group,
+the owner permissions apply.
+
+
+18. REAL DEVOPS EXAMPLE
+-----------------------
+
+Example:
+
+-rwxr-x--- 1 deploy developers deploy.sh
+
+Numeric permission:
+
+750
+
+Owner:
+deploy → rwx → read, write, execute
+
+Group:
+developers → r-x → read, execute
+
+Others:
+--- → no permissions
+
+A developer who belongs to the developers group can
+read and execute the script.
+
+A user who is not the owner and not a member of the
+developers group gets no permissions.
+
+
+19. IMPORTANT COMMANDS LEARNED
+------------------------------
+
+pwd
+ls
+ls -l
+ls -la
+ls -ld
+whoami
+id
+groups
+umask
+chmod
+chown
+chgrp
+touch
+mkdir
+
+
+20. IMPORTANT CONCEPT
+---------------------
+
+Linux permissions follow this structure:
+
+-rwxr-xr--
+
+-    = File type
+rwx  = Owner
+r-x  = Group
+r--  = Others
+
+Remember:
+
+r = 4
+w = 2
+x = 1
+
+chmod → permissions
+chown → owner
+chgrp → group

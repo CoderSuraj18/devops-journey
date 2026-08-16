@@ -1,0 +1,93 @@
+========================================
+DAY 3 - PRACTICAL WORK
+========================================
+
+1. Created Linux-native practice directory:
+
+mkdir day3-permissions
+cd day3-permissions
+
+2. Created test files:
+
+touch test.txt
+touch another.txt
+touch ownership-test.txt
+
+3. Checked permissions:
+
+ls -l test.txt
+
+Result:
+-rw-r--r--
+
+4. Checked umask:
+
+umask
+
+Result:
+0022
+
+5. Created directory:
+
+mkdir testdir
+
+Result:
+drwxr-xr-x
+
+6. Changed permissions:
+
+chmod 600 test.txt
+
+Result:
+-rw-------
+
+7. Changed permissions:
+
+chmod 755 test.txt
+
+Result:
+-rwxr-xr-x
+
+8. Practiced symbolic chmod:
+
+chmod g-w test.txt
+chmod o+w test.txt
+chmod o=r test.txt
+
+9. Checked current user:
+
+whoami
+
+Result:
+suraj
+
+10. Checked UID, GID and groups:
+
+id
+
+UID:
+1000
+
+GID:
+1000
+
+11. Checked groups:
+
+groups
+
+Groups:
+suraj adm cdrom sudo dip plugdev users
+
+12. Changed group ownership:
+
+chgrp users ownership-test.txt
+
+Result:
+
+-rw-r--r-- 1 suraj users ownership-test.txt
+
+13. Key learning:
+
+chmod → permissions
+chown → owner
+chgrp → group

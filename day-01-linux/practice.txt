@@ -1,0 +1,136 @@
+========================================
+DAY 1 - LINUX PRACTICE
+========================================
+
+Environment:
+
+WSL / Linux
+
+
+1. CHECK CURRENT DIRECTORY
+
+Command:
+
+pwd
+
+Purpose:
+
+Shows current working directory.
+
+
+2. LIST FILES
+
+Commands:
+
+ls
+ls -l
+ls -la
+
+Purpose:
+
+List files and directories.
+
+
+3. CREATE DIRECTORY
+
+Command:
+
+mkdir devops-scratch
+
+Purpose:
+
+Creates a directory.
+
+
+4. CREATE FILES
+
+Commands:
+
+touch notes.txt
+touch practice.txt
+
+Purpose:
+
+Creates empty files.
+
+
+5. CHECK COMMAND LOCATION
+
+Command:
+
+which ls
+
+Purpose:
+
+Shows where the ls executable is located.
+
+
+6. CHECK CURRENT USER
+
+Command:
+
+whoami
+
+Output:
+
+suraj
+
+
+7. CHECK DATE
+
+Command:
+
+date
+
+Purpose:
+
+Displays current date and time.
+
+
+8. CHECK PATH
+
+Command:
+
+echo $PATH
+
+Purpose:
+
+Displays directories searched by the shell
+for executable commands.
+
+
+9. CHECK COMMAND TYPE
+
+Commands:
+
+type pwd
+type ls
+type cd
+type echo
+type mkdir
+
+Learning:
+
+Some commands are shell built-ins while others
+are external programs.
+
+
+10. DAY 1 KEY LEARNING
+
+Linux commands are processed by the shell.
+
+Some commands are built into Bash.
+
+Other commands are executable programs found
+through PATH.
+
+
+11. DAY 1 COMPLETION
+
+WSL setup: Completed
+Linux terminal: Completed
+Basic navigation: Completed
+File creation: Completed
+Command discovery: Completed
+Environment variable PATH: Completed
+Shell built-in concept: Completed

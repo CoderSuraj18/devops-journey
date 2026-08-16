@@ -1,0 +1,253 @@
+========================================
+DAY 1 - LINUX BASICS
+========================================
+
+1. WHAT IS LINUX?
+-----------------
+
+Linux is an operating system widely used for servers,
+cloud computing, DevOps, containers, and automation.
+
+Many production servers run Linux because it is stable,
+secure, flexible, and suitable for automation.
+
+
+2. WSL
+------
+
+WSL = Windows Subsystem for Linux
+
+It allows Linux environments to run inside Windows.
+
+My WSL terminal prompt looks similar to:
+
+suraj@LAPTOP-TLSMCMGT:~$
+
+
+3. CURRENT DIRECTORY
+--------------------
+
+pwd
+
+pwd = Print Working Directory
+
+It displays the current directory.
+
+Example:
+
+pwd
+
+Output:
+
+/home/suraj
+
+
+4. LIST FILES
+-------------
+
+ls
+
+Lists files and directories in the current directory.
+
+
+ls -l
+
+Displays detailed information such as:
+
+- File type
+- Permissions
+- Owner
+- Group
+- File size
+- Modification time
+- File name
+
+
+ls -la
+
+Shows detailed information including hidden files.
+
+
+5. CREATE DIRECTORY
+-------------------
+
+mkdir directory_name
+
+mkdir = make directory
+
+Example:
+
+mkdir projects
+
+
+6. CREATE EMPTY FILE
+--------------------
+
+touch file.txt
+
+Creates an empty file if the file doesn't exist.
+
+Example:
+
+touch notes.txt
+
+
+7. FIND COMMAND LOCATION
+------------------------
+
+which command
+
+Shows the location of an executable command.
+
+Example:
+
+which ls
+
+Possible result:
+
+/usr/bin/ls
+
+
+8. CURRENT USER
+---------------
+
+whoami
+
+Shows the current logged-in user.
+
+Example:
+
+whoami
+
+Output:
+
+suraj
+
+
+9. DATE
+--------
+
+date
+
+Displays the current date and time.
+
+
+10. PATH
+--------
+
+PATH is an environment variable.
+
+It contains directories where the shell looks for
+executable commands.
+
+View PATH:
+
+echo $PATH
+
+Example:
+
+echo $PATH
+
+
+11. SHELL BUILT-IN VS EXTERNAL COMMAND
+--------------------------------------
+
+Some commands are built into the shell.
+
+Example:
+
+type pwd
+type cd
+type echo
+
+These may show:
+
+shell builtin
+
+
+External commands are separate executable programs.
+
+Example:
+
+type ls
+
+Possible result:
+
+ls is /usr/bin/ls
+
+
+12. COMMAND EXECUTION
+---------------------
+
+For a shell built-in:
+
+User types command
+        ↓
+Bash reads command
+        ↓
+Bash executes built-in
+        ↓
+Output
+
+
+For an external command:
+
+User types command
+        ↓
+Bash checks PATH
+        ↓
+Finds executable
+        ↓
+Runs program
+        ↓
+Program interacts with Linux
+        ↓
+Output
+
+
+13. IMPORTANT DAY 1 COMMANDS
+----------------------------
+
+pwd
+ls
+ls -l
+ls -la
+mkdir
+touch
+which
+whoami
+date
+echo $PATH
+type
+
+
+14. DEVOPS CONNECTION
+---------------------
+
+Linux is a fundamental skill for DevOps.
+
+DevOps engineers commonly work with:
+
+- Linux servers
+- AWS EC2
+- Docker
+- Kubernetes
+- CI/CD
+- Shell scripting
+- GitHub Actions
+- Monitoring
+- Automation
+
+
+15. DAY 1 MINDSET
+-----------------
+
+Don't only learn what a command does.
+
+Understand:
+
+1. What is it?
+2. Why does it exist?
+3. How does it work?
+4. Where is it used?
+5. What happens behind the scenes?

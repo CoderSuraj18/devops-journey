@@ -1,0 +1,13 @@
+Day 2 linux file system
+
+Linux File System basics
+ Root directory (/)
+ Important directories (/etc, /var, /home, etc.)
+ Absolute vs. Relative paths
+ Files vs. Directories
+
+
+devops-scratch/
+└── day-02-linux/
+    └── projects/
+        └── linux.txt
