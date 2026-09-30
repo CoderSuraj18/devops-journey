@@ -1,0 +1,236 @@
+DAY 4 - LINUX PROCESS & SYSTEM MONITORING
+
+1. PROCESS BASICS
+
+A process is a running instance of a program or command.
+
+PID = Process ID
+Every running process has a unique Process ID.
+
+Example:
+sleep 300
+
+We can find its PID using:
+ps aux | grep sleep
+
+
+2. PS COMMAND
+
+ps -p PID
+Shows information about a specific process.
+
+Example:
+ps -p 1013
+
+ps aux
+Shows a detailed list of processes running on the system.
+
+Meaning:
+a = processes from all users
+u = user-oriented format
+x = include processes without a terminal
+
+
+3. GREP
+
+grep is used to search for matching text.
+
+Example:
+ps aux | grep sleep
+
+This finds processes containing the word "sleep".
+
+The grep command itself may also appear in the output because the
+grep command contains the word being searched.
+
+
+4. PROCESS STATES
+
+STAT shows the current state of a process.
+
+S = Sleeping/waiting
++ = Foreground process
+
+Example:
+S+ = Sleeping + foreground
+
+
+5. KILL COMMAND
+
+kill PID normally sends SIGTERM (signal 15).
+
+Example:
+kill 1393
+
+SIGTERM politely requests the process to terminate.
+
+kill -9 PID sends SIGKILL (signal 9).
+
+Example:
+kill -9 1738
+
+SIGKILL immediately forces the process to terminate.
+
+Use normal kill first. Use kill -9 when a process does not respond
+or when forced termination is required.
+
+
+6. BACKGROUND PROCESSES
+
+The & symbol starts a command in the background.
+
+Example:
+sleep 300 &
+
+Output can show:
+[1] 1898
+
+[1] = job number
+1898 = PID
+
+jobs
+Shows the jobs managed by the current shell.
+
+bg
+Resumes a stopped job and runs it in the background.
+
+fg
+Brings a background job to the foreground.
+
+Ctrl + Z
+Stops/pauses a foreground process without killing it.
+
+
+7. PROCESS FLOW
+
+Foreground:
+sleep 300
+
+Background:
+sleep 300 &
+
+Stop:
+Ctrl + Z
+
+Resume in background:
+bg
+
+Bring to foreground:
+fg
+
+Terminate:
+kill PID
+
+Force terminate:
+kill -9 PID
+
+
+8. TOP COMMAND
+
+top provides a live view of running processes.
+
+Important columns:
+PID = Process ID
+USER = Process owner
+PR = Priority
+NI = Nice value
+S = Process state
+%CPU = CPU usage
+%MEM = Memory usage
+TIME+ = CPU time used
+COMMAND = Process/program name
+
+Useful keys:
+P = sort by CPU usage
+M = sort by memory usage
+q = quit
+
+
+9. HTOP
+
+htop is an interactive and easier-to-use process monitoring tool.
+
+It displays:
+CPU usage
+Memory usage
+PID
+User
+CPU percentage
+Memory percentage
+Process commands
+
+F6 can be used to select a sorting method.
+
+htop is similar to top but provides a more interactive interface.
+
+
+10. MEMORY MONITORING
+
+free -h
+Shows RAM and swap memory in human-readable format.
+
+Important columns:
+total = total memory
+used = currently used memory
+free = completely unused memory
+buff/cache = memory used for buffers and cache
+available = memory available for new applications
+
+Swap is disk-backed memory used when RAM is under pressure.
+
+Important:
+free -h = RAM/Memory
+df -h = Disk/Storage
+
+
+11. DISK MONITORING
+
+df -h
+Shows filesystem disk usage in human-readable format.
+
+Important columns:
+Size = total filesystem size
+Used = used disk space
+Avail = available disk space
+Use% = percentage used
+Mounted on = filesystem mount location
+
+In WSL:
+/
+is the Linux filesystem.
+
+ /mnt/c
+provides access to the Windows C: drive.
+
+
+12. DU COMMAND
+
+du -sh *
+Shows how much disk space files/directories use in the current directory.
+
+du = disk usage
+-s = summary
+-h = human-readable
+* = items in the current directory
+
+Example:
+du -sh *
+
+This can help identify which directories are consuming disk space.
+
+
+13. IMPORTANT COMMAND SUMMARY
+
+ps aux       = list processes
+ps -p PID    = check a specific process
+grep         = search text
+kill PID     = send SIGTERM
+kill -9 PID  = send SIGKILL
+jobs         = list shell jobs
+bg           = resume stopped job in background
+fg           = bring job to foreground
+top          = live process monitoring
+htop         = interactive process monitoring
+free -h      = RAM and swap usage
+df -h        = filesystem disk usage
+du -sh *     = directory/file disk usage

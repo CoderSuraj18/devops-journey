@@ -1,0 +1,76 @@
+DAY 4 - PROCESS OWNERSHIP
+
+PROCESS OWNER
+
+A Linux process has a user/owner.
+
+The USER column in commands such as:
+
+ps aux
+top
+htop
+
+shows which user owns the process.
+
+Example:
+
+suraj  1013  ...  sleep 300
+
+suraj = process owner
+1013  = PID
+
+
+ROOT VS NORMAL USER
+
+root is the administrator/superuser.
+
+suraj is a normal user account.
+
+A process owned by root does not automatically use more CPU or
+memory than a process owned by suraj.
+
+CPU and memory usage depend on what the process is doing.
+
+
+EXAMPLE FROM TOP
+
+Example process:
+
+316 suraj ... bash
+
+316 = PID
+suraj = owner
+bash = process
+
+
+IMPORTANT COMMAND
+
+ps aux
+
+The USER column shows the process owner.
+
+top and htop also show the USER/process owner.
+
+OWNER VS PROCESS
+
+Process owner = user that owns/runs the process.
+
+PID = unique ID assigned to the running process.
+
+These are different concepts.
+
+Example:
+
+suraj  1393  ...  sleep 500
+
+suraj = owner
+1393 = PID
+sleep 500 = command
+
+
+DAY 4 SUMMARY
+
+User/Owner -> identifies who owns the process
+PID         -> identifies the process itself
+root        -> superuser
+suraj       -> normal user account

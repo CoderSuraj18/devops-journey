@@ -1,0 +1,133 @@
+DAY 4 - LINUX PRACTICE
+
+PROCESS MANAGEMENT PRACTICE
+
+1. Create a process:
+sleep 300
+
+2. Find the process:
+ps aux | grep sleep
+
+3. Check a specific PID:
+ps -p PID
+
+4. Start a process in the background:
+sleep 300 &
+
+5. Check shell jobs:
+jobs
+
+6. Start a foreground process and stop it:
+sleep 300
+Ctrl + Z
+
+7. Check the stopped job:
+jobs
+
+8. Resume the stopped job in the background:
+bg
+
+9. Check the job:
+jobs
+
+10. Bring the background job to the foreground:
+fg
+
+11. Terminate a process normally:
+kill PID
+
+12. Check whether the process still exists:
+ps -p PID
+
+13. Create another process and force terminate it:
+sleep 500 &
+kill -9 PID
+
+14. Verify that it has terminated:
+ps -p PID
+
+
+PROCESS MONITORING PRACTICE
+
+15. Start the live process monitor:
+top
+
+16. Sort top by CPU usage:
+P
+
+17. Sort top by memory usage:
+M
+
+18. Exit top:
+q
+
+19. Start the interactive process monitor:
+htop
+
+20. Use F6 in htop to select CPU% sorting.
+
+21. Use F6 in htop to select MEM% sorting.
+
+22. Exit htop:
+q
+
+
+MEMORY PRACTICE
+
+23. Check RAM and swap:
+free -h
+
+Things to identify:
+- Total RAM
+- Used RAM
+- Free RAM
+- Available RAM
+- Total swap
+- Used swap
+
+
+DISK PRACTICE
+
+24. Check filesystem disk usage:
+df -h
+
+Identify:
+- Size
+- Used
+- Available
+- Use%
+- Mounted on
+
+25. Check directory disk usage:
+du -sh *
+
+26. Compare:
+free -h = RAM
+df -h = disk
+du -sh * = disk usage of files/directories
+
+
+DAY 4 HANDS-ON RESULT
+
+Successfully practiced:
+- Process identification
+- PID
+- ps
+- grep
+- Process states
+- kill
+- SIGTERM
+- SIGKILL
+- Background processes
+- jobs
+- bg
+- fg
+- Ctrl + Z
+- top
+- htop
+- CPU monitoring
+- Memory monitoring
+- free
+- Disk monitoring
+- df
+- du

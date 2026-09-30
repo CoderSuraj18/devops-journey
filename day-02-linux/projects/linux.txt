@@ -1,13 +1,290 @@
-Day 2 linux file system
+========================================
+DAY 2 - LINUX FILE SYSTEM
+========================================
 
-Linux File System basics
- Root directory (/)
- Important directories (/etc, /var, /home, etc.)
- Absolute vs. Relative paths
- Files vs. Directories
+1. LINUX FILE SYSTEM
+--------------------
+
+Linux uses a hierarchical filesystem.
+
+The top-level directory is:
+
+/
+
+This is called the ROOT directory.
 
 
-devops-scratch/
+2. IMPORTANT DIRECTORIES
+------------------------
+
+/
+
+Root directory.
+
+Everything in the Linux filesystem starts from /.
+
+
+/home
+
+Contains users' home directories.
+
+Example:
+
+/home/devuser
+
+
+/etc
+
+Contains system and application configuration files.
+
+
+/var
+
+Contains variable data that changes frequently.
+
+Examples include:
+
+- Logs
+- Cache
+- Application data
+
+
+/usr
+
+Contains many user-space programs, libraries,
+and supporting files.
+
+
+/tmp
+
+Used for temporary files.
+
+
+/opt
+
+Often used for optional or third-party software.
+
+
+/dev
+
+Contains device files used by Linux.
+
+
+3. ABSOLUTE PATH
+----------------
+
+An absolute path starts from the root directory:
+
+/
+
+Example:
+
+/home/devuser/devops-journey/day-02-linux/projects/linux.txt
+
+It describes the complete location of a file.
+
+
+4. RELATIVE PATH
+----------------
+
+A relative path starts from the current directory.
+
+Example:
+
+linux.txt
+
+If the file is in the current directory,
+linux.txt refers to that file.
+
+
+5. CURRENT DIRECTORY
+-------------------
+
+.
+
+A single dot means:
+
+Current directory
+
+Example:
+
+./linux.txt
+
+
+6. PARENT DIRECTORY
+------------------
+
+..
+
+Two dots mean:
+
+Parent directory
+
+Example:
+
+cd ..
+
+Moves one directory level upward.
+
+
+7. MOVE TWO LEVELS UP
+---------------------
+
+Command:
+
+cd ../..
+
+The space after cd is important.
+
+cd../..
+
+is NOT the same command.
+
+
+8. ROOT DIRECTORY
+-----------------
+
+Command:
+
+cd /
+
+Moves to the root directory.
+
+
+9. HOME DIRECTORY
+-----------------
+
+Command:
+
+cd ~
+
+Moves to the current user's home directory.
+
+Example:
+
+/home/devuser
+
+
+10. FILES VS DIRECTORIES
+------------------------
+
+Files store data.
+
+Directories organize files and other directories.
+
+Example:
+
+devops-journey/
 └── day-02-linux/
     └── projects/
         └── linux.txt
+
+
+11. IMPORTANT NAVIGATION COMMANDS
+---------------------------------
+
+pwd
+
+Shows current directory.
+
+
+ls
+
+Lists files and directories.
+
+
+cd directory
+
+Moves into a directory.
+
+
+cd ..
+
+Moves one level up.
+
+
+cd ../..
+
+Moves two levels up.
+
+
+cd /
+
+Moves to root.
+
+
+cd ~
+
+Moves to the user's home directory.
+
+
+12. CAT COMMAND
+---------------
+
+cat displays the contents of a file.
+
+Example:
+
+cat linux.txt
+
+
+13. KEY DAY 2 CONCEPTS
+----------------------
+
+Root directory:
+/
+
+Configuration:
+ /etc
+
+Variable data:
+ /var
+
+User home:
+ /home
+
+Absolute path:
+Starts from /
+
+Relative path:
+Starts from current location
+
+.:
+Current directory
+
+..:
+Parent directory
+
+~:
+Current user's home directory
+
+
+14. DAY 2 FILE
+-------------
+
+File:
+
+linux.txt
+
+Example location:
+
+/home/devuser/devops-journey/day-02-linux/projects/linux.txt
+
+Content:
+
+Day 2 linux file system
+
+
+15. DEVOPS CONNECTION
+---------------------
+
+Linux filesystem knowledge is important for:
+
+- AWS EC2
+- Docker containers
+- Kubernetes
+- CI/CD
+- Linux administration
+- Configuration management
+- Application logs
+- Automation
