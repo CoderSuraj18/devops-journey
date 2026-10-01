@@ -26,6 +26,32 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Validate website files
+        run: |
+          echo "Checking website files..."
+
+          if [ ! -f "index.html" ]; then
+            echo "ERROR: index.html is missing."
+            exit 1
+          fi
+
+          if [ ! -s "index.html" ]; then
+            echo "ERROR: index.html is empty."
+            exit 1
+          fi
+
+          if [ ! -f "style.css" ]; then
+            echo "ERROR: style.css is missing."
+            exit 1
+          fi
+
+          if [ ! -s "style.css" ]; then
+            echo "ERROR: style.css is empty."
+            exit 1
+          fi
+
+          echo "Website validation passed successfully."
+
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
