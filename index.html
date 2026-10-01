@@ -19,6 +19,7 @@
             <li><a href="#journey">Journey</a></li>
             <li><a href="#focus">DevOps Focus</a></li>
             <li><a href="#cicd">CI/CD</a></li>
+            <li><a href="#architecture">Architecture</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -189,6 +190,133 @@
         </a>
     </section>
 
+    <!-- DevOps Architecture -->
+    <section id="architecture">
+        <h2>DevOps Architecture & Workflow</h2>
+
+        <p>
+            This diagram represents the workflow used to build,
+            validate, and deploy this DevOps portfolio.
+        </p>
+
+        <div class="architecture-container">
+
+            <div class="architecture-flow">
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">👨‍💻</span>
+                    <h3>Developer</h3>
+                    <p>
+                        Create and update website code,
+                        documentation, and DevOps projects.
+                    </p>
+                </div>
+
+                <div class="architecture-arrow">→</div>
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">🔀</span>
+                    <h3>Git & GitHub</h3>
+                    <p>
+                        Version control, commits, branches,
+                        and repository management.
+                    </p>
+                </div>
+
+                <div class="architecture-arrow">→</div>
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">⚙️</span>
+                    <h3>GitHub Actions</h3>
+                    <p>
+                        Automatically executes the CI/CD
+                        workflow after a push.
+                    </p>
+                </div>
+
+                <div class="architecture-arrow">→</div>
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">✓</span>
+                    <h3>Validation</h3>
+                    <p>
+                        Website files and HTML are checked
+                        before deployment.
+                    </p>
+                </div>
+
+                <div class="architecture-arrow">→</div>
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">🚀</span>
+                    <h3>GitHub Pages</h3>
+                    <p>
+                        The validated website is deployed
+                        automatically.
+                    </p>
+                </div>
+
+                <div class="architecture-arrow">→</div>
+
+                <div class="architecture-node">
+                    <span class="architecture-icon">🌐</span>
+                    <h3>Live Portfolio</h3>
+                    <p>
+                        The latest successful deployment
+                        becomes publicly accessible.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="architecture-tools">
+
+                <h3>DevOps Technology Layer</h3>
+
+                <div class="technology-flow">
+
+                    <div class="technology-item">
+                        <span>☁️</span>
+                        <strong>AWS</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>🐧</span>
+                        <strong>Linux</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>⚙️</span>
+                        <strong>Ansible</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>📦</span>
+                        <strong>Docker</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>☸️</span>
+                        <strong>Kubernetes</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>🏗️</span>
+                        <strong>Terraform</strong>
+                    </div>
+
+                    <div class="technology-item">
+                        <span>🔧</span>
+                        <strong>Jenkins</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <!-- Learning Journey -->
     <section id="journey">
         <h2>Learning Journey</h2>
@@ -237,32 +365,52 @@
         <div class="projects-grid">
 
             <div class="project-card">
-                <h3>AWS Cloud Infrastructure & Hands-On Practice</h3>
-                <p>
-                    <strong>Cloud Infrastructure, Networking & Application Deployment</strong>
+
+                <div class="project-icon">☁️</div>
+
+                <h3>AWS Cloud Infrastructure</h3>
+
+                <p class="project-category">
+                    Cloud Infrastructure, Networking & Application Deployment
                 </p>
 
                 <p>
-                    EC2, VPC, public/private subnets, route tables,
-                    Internet Gateway, NAT Gateway, Security Groups,
-                    VPC Peering, S3, versioning, replication, RDS,
-                    Elastic Load Balancing, target groups, health checks,
-                    IAM, AWS CLI, Linux on EC2, and LAMP deployment.
+                    Hands-on practice with EC2, VPC, public and private
+                    subnets, route tables, Internet Gateway, NAT Gateway,
+                    Security Groups, VPC Peering, S3, versioning,
+                    replication, RDS, Elastic Load Balancing,
+                    target groups, health checks, IAM, AWS CLI,
+                    Linux on EC2, and LAMP deployment.
                 </p>
+
+                <div class="project-tags">
+                    <span>AWS</span>
+                    <span>EC2</span>
+                    <span>VPC</span>
+                    <span>S3</span>
+                    <span>RDS</span>
+                    <span>IAM</span>
+                    <span>AWS CLI</span>
+                </div>
 
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/aws-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View AWS Project
+                    View AWS Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Ansible Automation & Configuration Management</h3>
-                <p>
-                    <strong>Configuration Management & Server Automation</strong>
+
+                <div class="project-icon">⚙️</div>
+
+                <h3>Ansible Automation</h3>
+
+                <p class="project-category">
+                    Configuration Management & Server Automation
                 </p>
 
                 <p>
@@ -273,19 +421,32 @@
                     and troubleshooting.
                 </p>
 
+                <div class="project-tags">
+                    <span>Ansible</span>
+                    <span>YAML</span>
+                    <span>SSH</span>
+                    <span>Linux</span>
+                    <span>Automation</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/ansible-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View Ansible Project
+                    View Ansible Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Docker Containerization & DevOps Practice</h3>
-                <p>
-                    <strong>Containerization & Application Deployment</strong>
+
+                <div class="project-icon">📦</div>
+
+                <h3>Docker Containerization</h3>
+
+                <p class="project-category">
+                    Containerization & Application Deployment
                 </p>
 
                 <p>
@@ -295,19 +456,32 @@
                     inspection, and troubleshooting.
                 </p>
 
+                <div class="project-tags">
+                    <span>Docker</span>
+                    <span>Containers</span>
+                    <span>Dockerfile</span>
+                    <span>Networking</span>
+                    <span>Volumes</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/docker-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View Docker Project
+                    View Docker Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Kubernetes Container Orchestration & DevOps Practice</h3>
-                <p>
-                    <strong>Container Orchestration & Application Management</strong>
+
+                <div class="project-icon">☸️</div>
+
+                <h3>Kubernetes Orchestration</h3>
+
+                <p class="project-category">
+                    Container Orchestration & Application Management
                 </p>
 
                 <p>
@@ -317,19 +491,32 @@
                     application deployment, logs, and troubleshooting.
                 </p>
 
+                <div class="project-tags">
+                    <span>Kubernetes</span>
+                    <span>Pods</span>
+                    <span>Deployments</span>
+                    <span>Services</span>
+                    <span>kubectl</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/kubernetes-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View Kubernetes Project
+                    View Kubernetes Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Terraform Infrastructure as Code & DevOps Practice</h3>
-                <p>
-                    <strong>Infrastructure as Code & Cloud Automation</strong>
+
+                <div class="project-icon">🏗️</div>
+
+                <h3>Terraform Infrastructure as Code</h3>
+
+                <p class="project-category">
+                    Infrastructure as Code & Cloud Automation
                 </p>
 
                 <p>
@@ -340,19 +527,32 @@
                     and automation.
                 </p>
 
+                <div class="project-tags">
+                    <span>Terraform</span>
+                    <span>IaC</span>
+                    <span>AWS</span>
+                    <span>Providers</span>
+                    <span>State</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/terraform-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View Terraform Project
+                    View Terraform Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Jenkins & CI/CD Automation Practice</h3>
-                <p>
-                    <strong>Continuous Integration, Delivery & Pipeline Automation</strong>
+
+                <div class="project-icon">🔧</div>
+
+                <h3>Jenkins & CI/CD Automation</h3>
+
+                <p class="project-category">
+                    Continuous Integration, Delivery & Pipeline Automation
                 </p>
 
                 <p>
@@ -364,17 +564,33 @@
                     automation, and pipeline troubleshooting.
                 </p>
 
+                <div class="project-tags">
+                    <span>Jenkins</span>
+                    <span>CI/CD</span>
+                    <span>Git</span>
+                    <span>Jenkinsfile</span>
+                    <span>Automation</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/jenkins-cicd-project"
                     target="_blank"
                     class="project-link"
                 >
-                    View Jenkins Project
+                    View Jenkins Project →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>Linux Administration & DevOps Practice</h3>
+
+                <div class="project-icon">🐧</div>
+
+                <h3>Linux Administration</h3>
+
+                <p class="project-category">
+                    Linux Administration & DevOps Fundamentals
+                </p>
 
                 <p>
                     Daily Linux learning covering filesystem,
@@ -382,31 +598,57 @@
                     system monitoring, and DevOps fundamentals.
                 </p>
 
+                <div class="project-tags">
+                    <span>Linux</span>
+                    <span>Ubuntu</span>
+                    <span>Permissions</span>
+                    <span>Processes</span>
+                    <span>Monitoring</span>
+                </div>
+
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey/tree/master/day-01-linux"
                     target="_blank"
                     class="project-link"
                 >
-                    View Linux Journey
+                    View Linux Journey →
                 </a>
+
             </div>
 
             <div class="project-card">
-                <h3>DevOps Journey Repository</h3>
+
+                <div class="project-icon">🚀</div>
+
+                <h3>Complete DevOps Journey</h3>
+
+                <p class="project-category">
+                    DevOps Learning, Practice & Portfolio Repository
+                </p>
 
                 <p>
                     The complete repository containing my DevOps
                     learning journey, notes, daily practice,
-                    projects, configurations, and automation work.
+                    projects, configurations, automation work,
+                    and practical hands-on experience.
                 </p>
+
+                <div class="project-tags">
+                    <span>DevOps</span>
+                    <span>AWS</span>
+                    <span>Linux</span>
+                    <span>Automation</span>
+                    <span>CI/CD</span>
+                </div>
 
                 <a
                     href="https://github.com/CoderSuraj18/devops-journey"
                     target="_blank"
                     class="project-link"
                 >
-                    View Full Repository
+                    View Full Repository →
                 </a>
+
             </div>
 
         </div>
@@ -416,70 +658,120 @@
     <section id="skills">
         <h2>Skills & Technologies</h2>
 
-        <div class="skills-grid">
+        <p class="skills-intro">
+            Technologies and tools I use across cloud infrastructure,
+            Linux administration, automation, containerization,
+            infrastructure as code, and CI/CD.
+        </p>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-                    alt="Linux"
-                >
-                <h3>Linux</h3>
+        <div class="skills-categories">
+
+            <!-- Cloud -->
+            <div class="skills-category">
+                <h3>☁️ Cloud & Infrastructure</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                            alt="AWS"
+                        >
+                        <h4>AWS</h4>
+                        <p>Cloud Infrastructure</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+                            alt="Terraform"
+                        >
+                        <h4>Terraform</h4>
+                        <p>Infrastructure as Code</p>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                    alt="Git"
-                >
-                <h3>Git & GitHub</h3>
+            <!-- Linux & Version Control -->
+            <div class="skills-category">
+                <h3>🐧 Operating System & Version Control</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                            alt="Linux"
+                        >
+                        <h4>Linux</h4>
+                        <p>Administration & Monitoring</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                            alt="Git"
+                        >
+                        <h4>Git & GitHub</h4>
+                        <p>Version Control</p>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                    alt="AWS"
-                >
-                <h3>AWS</h3>
+            <!-- Automation & Containers -->
+            <div class="skills-category">
+                <h3>⚙️ Automation & Containers</h3>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+                            alt="Ansible"
+                        >
+                        <h4>Ansible</h4>
+                        <p>Configuration Management</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                            alt="Docker"
+                        >
+                        <h4>Docker</h4>
+                        <p>Containerization</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                            alt="Kubernetes"
+                        >
+                        <h4>Kubernetes</h4>
+                        <p>Container Orchestration</p>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
-                    alt="Ansible"
-                >
-                <h3>Ansible</h3>
-            </div>
+            <!-- CI/CD -->
+            <div class="skills-category">
+                <h3>🔄 CI/CD & Automation</h3>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                    alt="Docker"
-                >
-                <h3>Docker</h3>
-            </div>
+                <div class="skills-grid">
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
-                    alt="Kubernetes"
-                >
-                <h3>Kubernetes</h3>
-            </div>
+                    <div class="skill-card">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+                            alt="Jenkins"
+                        >
+                        <h4>Jenkins</h4>
+                        <p>CI/CD Automation</p>
+                    </div>
 
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
-                    alt="Terraform"
-                >
-                <h3>Terraform</h3>
-            </div>
-
-            <div class="skill-card">
-                <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
-                    alt="Jenkins"
-                >
-                <h3>Jenkins & CI/CD</h3>
+                </div>
             </div>
 
         </div>
