@@ -11,13 +11,14 @@
 
 <header>
     <nav>
-        <h2>Suraj Khandekar</h2>
+        <div class="nav-brand">Suraj Khandekar</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#journey">Journey</a></li>
             <li><a href="#focus">DevOps Focus</a></li>
+            <li><a href="#cicd">CI/CD</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -25,496 +26,512 @@
     </nav>
 </header>
 
+<main>
 
-<!-- HOME -->
-<section id="home" class="home-section">
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>DevOps Engineer</h1>
 
-    <div class="home-content">
-
-        <h1>DevOps Engineer</h1>
-
-        <h2>My DevOps Journey 🚀</h2>
-
-        <p>
-            Welcome to my DevOps portfolio. This website documents my
-            hands-on learning, projects, cloud practice, automation,
-            and journey toward DevOps Engineering.
-        </p>
-
-        <p>
-            I focus on building practical skills across cloud infrastructure,
-            Linux administration, automation, containers, Infrastructure as Code,
-            and CI/CD.
-        </p>
-
-        <p class="home-stack">
-            AWS • Linux • Git & GitHub • Ansible • Docker • Kubernetes
-            • Terraform • Jenkins • CI/CD
-        </p>
-
-        <a
-            href="https://github.com/CoderSuraj18"
-            target="_blank"
-            class="github-button"
-        >
-            Visit My GitHub
-        </a>
-
-    </div>
-
-</section>
-
-
-<!-- ABOUT -->
-<section id="about">
-
-    <h2>About Me</h2>
-
-    <p>
-        Hi, I'm <strong>Suraj Khandekar</strong> — a
-        <strong>DevOps Engineer</strong> focused on cloud infrastructure,
-        automation, containerization, and CI/CD.
-    </p>
-
-    <p>
-        I am building my career toward DevOps Engineering through
-        structured learning, hands-on labs, troubleshooting, automation,
-        and practical projects.
-    </p>
-
-    <p>
-        My learning journey covers AWS, Linux, Git, GitHub, Ansible,
-        Docker, Kubernetes, Terraform, Jenkins, and CI/CD.
-    </p>
-
-    <p>
-        I believe in learning by doing and continuously improving my
-        ability to build, automate, troubleshoot, and deploy applications
-        and infrastructure.
-    </p>
-
-</section>
-
-
-<!-- DEVOPS FOCUS -->
-<section id="focus">
-
-    <h2>DevOps Focus</h2>
-
-    <div class="focus-container">
-
-        <div class="focus-card">
-            <h3>☁️ Cloud Infrastructure</h3>
-            <p>AWS cloud infrastructure, networking, security, and deployment.</p>
-        </div>
-
-        <div class="focus-card">
-            <h3>⚙️ Automation</h3>
-            <p>Ansible and Terraform for configuration and infrastructure automation.</p>
-        </div>
-
-        <div class="focus-card">
-            <h3>📦 Containers</h3>
-            <p>Docker and Kubernetes for containerization and orchestration.</p>
-        </div>
-
-        <div class="focus-card">
-            <h3>🔄 CI/CD</h3>
-            <p>Jenkins, Git, GitHub, and continuous integration and delivery workflows.</p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- LEARNING JOURNEY -->
-<section id="journey">
-
-    <h2>Learning Journey</h2>
-
-    <div class="journey-container">
-
-        <div class="journey-card">
-            <h3>Day 1 — Linux Fundamentals</h3>
-            <p>
-                WSL and Ubuntu, pwd, ls, mkdir, touch, PATH,
-                built-in commands, and external commands.
-            </p>
-        </div>
-
-        <div class="journey-card">
-            <h3>Day 2 — Linux Filesystem</h3>
-            <p>
-                Linux filesystem hierarchy, absolute and relative paths,
-                cd commands, cat, files, and directories.
-            </p>
-        </div>
-
-        <div class="journey-card">
-            <h3>Day 3 — Linux Permissions</h3>
-            <p>
-                chmod, chown, chgrp, users, groups, permissions,
-                755, 644, 700, 600, and umask.
-            </p>
-        </div>
-
-        <div class="journey-card">
-            <h3>Day 4 — Linux Processes & Monitoring</h3>
-            <p>
-                ps, jobs, bg, fg, Ctrl+Z, kill, kill -9,
-                top, htop, free, df, and du.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- PROJECTS -->
-<section id="projects">
-
-    <h2>Projects & Hands-On Practice</h2>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-
-            <h3>AWS Cloud Infrastructure & Hands-On Practice</h3>
-
-            <p class="project-type">
-                Cloud Infrastructure, Networking & Application Deployment
-            </p>
+            <h2>My DevOps Journey 🚀</h2>
 
             <p>
-                EC2, VPC, public/private subnets, route tables, Internet Gateway,
-                NAT Gateway, Security Groups, VPC Peering, S3, versioning,
-                replication, RDS, Elastic Load Balancing, target groups,
-                health checks, IAM, AWS CLI, Linux on EC2, and LAMP deployment.
+                Welcome to my DevOps portfolio, where I document my
+                hands-on learning, practical projects, cloud experience,
+                automation, and continuous progress in DevOps engineering.
+            </p>
+
+            <p class="home-stack">
+                AWS • Linux • Git & GitHub • Ansible • Docker • Kubernetes • Terraform • Jenkins • CI/CD
             </p>
 
             <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/aws-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Ansible Automation & Configuration Management</h3>
-
-            <p class="project-type">
-                Configuration Management & Server Automation
-            </p>
-
-            <p>
-                Control node, managed nodes, inventory, SSH, ad-hoc commands,
-                modules, YAML playbooks, privilege escalation, Apache
-                installation automation, configuration management,
-                server automation, and troubleshooting.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/ansible-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Docker Containerization & DevOps Practice</h3>
-
-            <p class="project-type">
-                Containerization & Application Deployment
-            </p>
-
-            <p>
-                Docker architecture, images, containers, Dockerfiles,
-                building images, container lifecycle, port mapping,
-                networking, volumes, logs, inspection, and troubleshooting.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/docker-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Kubernetes Container Orchestration & DevOps Practice</h3>
-
-            <p class="project-type">
-                Container Orchestration & Application Management
-            </p>
-
-            <p>
-                Kubernetes architecture, Control Plane, Worker Nodes,
-                Pods, Deployments, ReplicaSets, Services, Namespaces,
-                YAML manifests, kubectl, application deployment,
-                scaling, rolling updates, logs, and troubleshooting.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/kubernetes-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Terraform Infrastructure as Code & DevOps Practice</h3>
-
-            <p class="project-type">
-                Infrastructure as Code & Cloud Automation
-            </p>
-
-            <p>
-                Infrastructure as Code, Terraform architecture, providers,
-                resources, variables, outputs, terraform init, validate,
-                plan, apply, state, AWS infrastructure concepts,
-                and infrastructure automation.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/terraform-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Jenkins & CI/CD Automation Practice</h3>
-
-            <p class="project-type">
-                Continuous Integration, Delivery & Pipeline Automation
-            </p>
-
-            <p>
-                Continuous Integration, Continuous Delivery, Jenkins architecture,
-                jobs, pipelines, Git/GitHub integration, pipeline stages,
-                Jenkinsfile concepts, build automation, testing concepts,
-                build triggers, deployment automation, and troubleshooting.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/jenkins-cicd-project"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Linux Administration & DevOps Practice</h3>
-
-            <p class="project-type">
-                Linux Administration & Command-Line Practice
-            </p>
-
-            <p>
-                Linux fundamentals, filesystem navigation, permissions,
-                ownership, users, groups, processes, jobs, system monitoring,
-                and essential Linux administration commands.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey/tree/master/day-01-linux"
-                target="_blank"
-            >
-                View Project on GitHub →
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>DevOps Journey Repository</h3>
-
-            <p class="project-type">
-                DevOps Learning & Portfolio Repository
-            </p>
-
-            <p>
-                My complete DevOps learning repository containing daily
-                practice, notes, commands, configurations, projects,
-                and hands-on work across the DevOps toolchain.
-            </p>
-
-            <a
-                href="https://github.com/CoderSuraj18/devops-journey"
-                target="_blank"
-            >
-                View Repository on GitHub →
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- SKILLS -->
-<section id="skills">
-
-    <h2>Skills & Technologies</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-                alt="Linux logo"
-            >
-            <h3>Linux</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                alt="Git logo"
-            >
-            <h3>Git & GitHub</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-                alt="AWS logo"
-            >
-            <h3>AWS</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
-                alt="Ansible logo"
-            >
-            <h3>Ansible</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                alt="Docker logo"
-            >
-            <h3>Docker</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
-                alt="Kubernetes logo"
-            >
-            <h3>Kubernetes</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
-                alt="Terraform logo"
-            >
-            <h3>Terraform</h3>
-        </div>
-
-        <div class="skill-card">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
-                alt="Jenkins logo"
-            >
-            <h3>Jenkins & CI/CD</h3>
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact">
-
-    <h2>Contact</h2>
-
-    <p>
-        Passionate about DevOps—let’s connect.
-    </p>
-
-    <div class="contact-links">
-
-        <p>
-            <a
-                class="contact-link"
                 href="https://github.com/CoderSuraj18"
                 target="_blank"
+                class="button"
             >
-                GitHub
+                View My GitHub
             </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            Hi, I'm <strong>Suraj Khandekar</strong> — a
+            <strong>DevOps Engineer</strong> focused on cloud infrastructure,
+            automation, containerization, and CI/CD.
         </p>
 
         <p>
-            <a
-                class="contact-link"
-                href="https://www.linkedin.com/in/suraj-khandekar-51581b179"
-                target="_blank"
-            >
-                LinkedIn
-            </a>
+            I am building my career toward DevOps Engineering through
+            structured learning, hands-on labs, troubleshooting,
+            automation, and practical projects.
         </p>
 
         <p>
-            <a
-                class="contact-link"
-                href="mailto:khandekarsuraj67@gmail.com"
-            >
-                Email
-            </a>
+            My practical experience includes AWS cloud services, Linux
+            administration, Git and GitHub, Ansible automation, Docker,
+            Kubernetes, Terraform, Jenkins, and CI/CD workflows.
         </p>
+    </section>
+
+    <!-- DevOps Focus -->
+    <section id="focus">
+        <h2>DevOps Focus</h2>
+
+        <div class="focus-grid">
+
+            <div class="focus-card">
+                <h3>☁️ Cloud Infrastructure</h3>
+                <p>
+                    AWS cloud services, networking, compute, storage,
+                    databases, security, and infrastructure deployment.
+                </p>
+            </div>
+
+            <div class="focus-card">
+                <h3>⚙️ Automation</h3>
+                <p>
+                    Ansible and Terraform for configuration management,
+                    infrastructure automation, and repeatable deployments.
+                </p>
+            </div>
+
+            <div class="focus-card">
+                <h3>📦 Containers</h3>
+                <p>
+                    Docker and Kubernetes for containerization,
+                    application deployment, scaling, and orchestration.
+                </p>
+            </div>
+
+            <div class="focus-card">
+                <h3>🔄 CI/CD</h3>
+                <p>
+                    Jenkins, Git, GitHub, GitHub Actions, automated
+                    validation, and continuous deployment workflows.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CI/CD Pipeline -->
+    <section id="cicd">
+        <h2>CI/CD Pipeline</h2>
 
         <p>
-            <a
-                class="contact-link"
-                href="tel:9021345094"
-            >
-                Phone
-            </a>
+            This portfolio website is deployed using an automated
+            GitHub Actions CI/CD pipeline.
         </p>
 
-    </div>
+        <div class="cicd-flow">
 
-</section>
+            <div class="cicd-step">
+                <span class="cicd-number">1</span>
+                <h3>Git Push</h3>
+                <p>
+                    Code changes are committed and pushed to the
+                    <strong>master</strong> branch.
+                </p>
+            </div>
 
+            <div class="cicd-arrow">→</div>
 
-<!-- FOOTER -->
+            <div class="cicd-step">
+                <span class="cicd-number">2</span>
+                <h3>GitHub Actions</h3>
+                <p>
+                    A workflow automatically starts after a push
+                    to the repository.
+                </p>
+            </div>
+
+            <div class="cicd-arrow">→</div>
+
+            <div class="cicd-step">
+                <span class="cicd-number">3</span>
+                <h3>Validation</h3>
+                <p>
+                    Website files and HTML are validated before
+                    deployment.
+                </p>
+            </div>
+
+            <div class="cicd-arrow">→</div>
+
+            <div class="cicd-step">
+                <span class="cicd-number">4</span>
+                <h3>Deployment</h3>
+                <p>
+                    The validated website is automatically deployed
+                    to GitHub Pages.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="cicd-result">
+            <strong>Result:</strong>
+            Every successful push can automatically update the
+            live DevOps portfolio.
+        </div>
+
+        <a
+            href="https://github.com/CoderSuraj18/devops-journey/actions"
+            target="_blank"
+            class="button"
+        >
+            View GitHub Actions
+        </a>
+    </section>
+
+    <!-- Learning Journey -->
+    <section id="journey">
+        <h2>Learning Journey</h2>
+
+        <div class="journey-grid">
+
+            <div class="journey-card">
+                <h3>Day 1 — Linux Fundamentals</h3>
+                <p>
+                    WSL and Ubuntu, pwd, ls, mkdir, touch, PATH,
+                    shell built-ins, and external commands.
+                </p>
+            </div>
+
+            <div class="journey-card">
+                <h3>Day 2 — Linux Filesystem</h3>
+                <p>
+                    Linux filesystem hierarchy, absolute and relative
+                    paths, cd, cat, files, and directories.
+                </p>
+            </div>
+
+            <div class="journey-card">
+                <h3>Day 3 — Linux Permissions</h3>
+                <p>
+                    chmod, chown, chgrp, users, groups, permissions
+                    such as 755, 644, 700, 600, and umask.
+                </p>
+            </div>
+
+            <div class="journey-card">
+                <h3>Day 4 — Processes & Monitoring</h3>
+                <p>
+                    ps, jobs, bg, fg, Ctrl+Z, kill, kill -9,
+                    top, htop, free, df, and du.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects & Hands-On Practice</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>AWS Cloud Infrastructure & Hands-On Practice</h3>
+                <p>
+                    <strong>Cloud Infrastructure, Networking & Application Deployment</strong>
+                </p>
+
+                <p>
+                    EC2, VPC, public/private subnets, route tables,
+                    Internet Gateway, NAT Gateway, Security Groups,
+                    VPC Peering, S3, versioning, replication, RDS,
+                    Elastic Load Balancing, target groups, health checks,
+                    IAM, AWS CLI, Linux on EC2, and LAMP deployment.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/aws-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View AWS Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Ansible Automation & Configuration Management</h3>
+                <p>
+                    <strong>Configuration Management & Server Automation</strong>
+                </p>
+
+                <p>
+                    Control node, managed nodes, inventory, SSH,
+                    ad-hoc commands, modules, YAML playbooks,
+                    privilege escalation, Apache installation,
+                    configuration management, server automation,
+                    and troubleshooting.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/ansible-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Ansible Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Docker Containerization & DevOps Practice</h3>
+                <p>
+                    <strong>Containerization & Application Deployment</strong>
+                </p>
+
+                <p>
+                    Docker architecture, images, containers,
+                    Dockerfiles, image building, container lifecycle,
+                    port mapping, networking, volumes, logs,
+                    inspection, and troubleshooting.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/docker-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Docker Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Kubernetes Container Orchestration & DevOps Practice</h3>
+                <p>
+                    <strong>Container Orchestration & Application Management</strong>
+                </p>
+
+                <p>
+                    Kubernetes architecture, Control Plane, Worker Nodes,
+                    Pods, Deployments, ReplicaSets, Services, Namespaces,
+                    YAML manifests, kubectl, scaling, rolling updates,
+                    application deployment, logs, and troubleshooting.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/kubernetes-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Kubernetes Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Terraform Infrastructure as Code & DevOps Practice</h3>
+                <p>
+                    <strong>Infrastructure as Code & Cloud Automation</strong>
+                </p>
+
+                <p>
+                    Infrastructure as Code, Terraform architecture,
+                    providers, resources, variables, outputs,
+                    configuration, terraform init, validate, plan,
+                    apply, state, AWS infrastructure concepts,
+                    and automation.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/terraform-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Terraform Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Jenkins & CI/CD Automation Practice</h3>
+                <p>
+                    <strong>Continuous Integration, Delivery & Pipeline Automation</strong>
+                </p>
+
+                <p>
+                    Continuous Integration, Continuous Delivery,
+                    Jenkins architecture, jobs, pipelines,
+                    Git/GitHub integration, pipeline stages,
+                    Jenkinsfile concepts, build automation,
+                    testing concepts, build triggers, deployment
+                    automation, and pipeline troubleshooting.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/jenkins-cicd-project"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Jenkins Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Linux Administration & DevOps Practice</h3>
+
+                <p>
+                    Daily Linux learning covering filesystem,
+                    permissions, users, groups, processes,
+                    system monitoring, and DevOps fundamentals.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey/tree/master/day-01-linux"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Linux Journey
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>DevOps Journey Repository</h3>
+
+                <p>
+                    The complete repository containing my DevOps
+                    learning journey, notes, daily practice,
+                    projects, configurations, and automation work.
+                </p>
+
+                <a
+                    href="https://github.com/CoderSuraj18/devops-journey"
+                    target="_blank"
+                    class="project-link"
+                >
+                    View Full Repository
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills & Technologies</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+                    alt="Linux"
+                >
+                <h3>Linux</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    alt="Git"
+                >
+                <h3>Git & GitHub</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    alt="AWS"
+                >
+                <h3>AWS</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
+                    alt="Ansible"
+                >
+                <h3>Ansible</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                    alt="Docker"
+                >
+                <h3>Docker</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
+                    alt="Kubernetes"
+                >
+                <h3>Kubernetes</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
+                    alt="Terraform"
+                >
+                <h3>Terraform</h3>
+            </div>
+
+            <div class="skill-card">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+                    alt="Jenkins"
+                >
+                <h3>Jenkins & CI/CD</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            Passionate about DevOps—let’s connect.
+        </p>
+
+        <div class="contact-links">
+
+            <p>
+                <a
+                    href="https://github.com/CoderSuraj18"
+                    target="_blank"
+                >
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://www.linkedin.com/in/suraj-khandekar-51581b179"
+                    target="_blank"
+                >
+                    LinkedIn
+                </a>
+            </p>
+
+            <p>
+                <a href="mailto:khandekarsuraj67@gmail.com">
+                    Email
+                </a>
+            </p>
+
+            <p>
+                <a href="tel:9021345094">
+                    Phone
+                </a>
+            </p>
+
+        </div>
+    </section>
+
+</main>
+
 <footer>
-
     <div class="footer-content">
-
         <h3>Suraj Khandekar</h3>
 
         <p>DevOps Engineer</p>
@@ -526,9 +543,7 @@
         <p class="footer-copyright">
             © 2026 Suraj Khandekar. All rights reserved.
         </p>
-
     </div>
-
 </footer>
 
 </body>
