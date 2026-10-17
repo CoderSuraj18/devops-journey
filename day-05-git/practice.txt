@@ -1,0 +1,8 @@
+Day 5 Git Command Practice
+
+1. git status - Check the working tree.
+2. git add - Stage changes.
+3. git diff --cached - Inspect staged changes.
+4. git commit - Save a snapshot in local history.
+5. git log --oneline - View recent commits.
+6. git push - Upload local commits to the remote.
