@@ -1,0 +1,154 @@
+# DAY 7 — BASH PRACTICE
+
+## EXERCISE 1: UNDERSTAND THE LOOP
+
+Script:
+
+```bash
+for file in config.txt backup.txt nginx.conf
+do
+    echo "$file"
+done
+```
+
+Questions:
+
+1. How many filenames are in the list?
+2. How many times does the loop execute?
+3. What does the variable `$file` represent?
+
+## EXERCISE 2: UNDERSTAND THE CONDITION
+
+Condition:
+
+```bash
+if [ -f "$file" ]
+```
+
+Questions:
+
+1. What does `-f` check?
+2. What happens when the condition is true?
+3. What happens when the condition is false?
+
+## EXERCISE 3: PREDICT THE OUTPUT
+
+Assume:
+
+- config.txt exists as a regular file.
+- backup.txt does not exist.
+- nginx.conf exists as a regular file.
+
+Questions:
+
+1. What will the script print?
+2. How many times will the if condition be evaluated?
+3. How many times will the else branch execute?
+
+## EXERCISE 4: HANDS-ON TEST
+
+1. Create a separate temporary test directory.
+2. Create config.txt and nginx.conf in it.
+3. Leave backup.txt absent.
+4. Run file-check-loop.sh from that directory.
+5. Compare the actual output with your prediction.
+
+## EXERCISE 5: RECALL QUIZ
+
+1. What is the purpose of a for loop?
+2. Why do we use `"$file"` instead of writing the same filename repeatedly?
+3. What does `done` indicate?
+4. What is the difference between `-f` and `-d`?
+5. Which command displays the contents of a script?
+6. Which command displays files in the current directory?
+
+## EXERCISE 6: FILE READABILITY
+
+Condition:
+
+```bash
+if [ -r config.txt ]
+then
+    echo "config.txt is readable"
+else
+    echo "config.txt is not readable"
+fi
+```
+
+Questions:
+
+1. What does `-r` check?
+2. What happens if the file is readable?
+3. What happens if the file is not readable?
+
+## EXERCISE 7: COMBINE CONDITIONS
+
+Condition:
+
+```bash
+if [ -f config.txt ] && [ -r config.txt ]
+then
+    echo "Config file exists and is readable"
+else
+    echo "Config file is missing or not readable"
+fi
+```
+
+Remember:
+
+- `&&` means both conditions must be true.
+- `||` means at least one condition must be true.
+
+## EXERCISE 8: INDEPENDENT SCRIPTING
+
+Created `check-multiple-files.sh`.
+
+Requirements:
+
+- Check app.conf, database.conf and server.conf.
+- Use a for loop.
+- Use if-else.
+- Use `-f`.
+- Display whether each file exists or is missing.
+
+Result: Successfully completed and tested both branches.
+
+## EXERCISE 9: FINAL CONFIGURATION CHECKER
+
+Created `final-config-check.sh`.
+
+Requirements:
+
+- Use a Bash shebang.
+- Iterate through app.conf, database.conf and server.conf.
+- Check file existence using `-f`.
+- Check readability using `-r`.
+- Combine conditions using `&&`.
+- Display the appropriate message using if-else.
+
+Result: Successfully executed and verified.
+
+## COMPLETION CHECKLIST
+
+- [x] Read and explain the for loop.
+- [x] Understand loop iterations.
+- [x] Understand if-else conditions.
+- [x] Predict output correctly.
+- [x] Practise file existence checks using `-f`.
+- [x] Practise directory checks using `-d`.
+- [x] Practise readability checks using `-r`.
+- [x] Understand `&&` and `||`.
+- [x] Run file-checking scripts successfully.
+- [x] Complete independent scripting.
+- [x] Complete the final configuration-checking challenge.
+- [x] Complete the Day 7 recall quiz.
+- [ ] Review Git status and stage files.
+- [ ] Commit and push Day 7 files to GitHub.
+
+## DAY 7 STATUS
+
+Bash loops, conditional statements, file checks and logical operators practised successfully.
+
+Practical exercises and recall quiz completed.
+
+GitHub submission pending.
