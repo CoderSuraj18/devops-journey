@@ -798,9 +798,14 @@ nav a:hover {
     font-size: 20px;
 }
 
+
 .journey-card p {
-    margin-bottom: 0;
+    margin-bottom: 18px;
     font-size: 14px;
+}
+
+.journey-card .project-link {
+    margin-top: auto;
 }
 
 
