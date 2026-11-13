@@ -13,7 +13,7 @@ A controlled failure-testing script is also used to validate standard error redi
 ```text
 day-10-bash/
 ├── README.md
-├── questions.md
+├── Questions.md
 ├── system-health.sh
 ├── cron-failure-test.sh
 └── logs/
