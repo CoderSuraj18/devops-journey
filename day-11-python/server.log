@@ -1,0 +1,3 @@
+web-server: HEALTHY
+app-server: UNHEALTHY
+db-server: HEALTHY
