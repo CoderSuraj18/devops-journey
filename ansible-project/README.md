@@ -1,5 +1,8 @@
 # Ansible Automation & Configuration Management Project ⚙️
 
+> **Repository status:** This folder currently contains Ansible topic documentation only. It does not yet include an inventory, executable playbooks, roles, or a reproducible managed-node automation setup.
+
+
 A hands-on Ansible project documenting my practical experience with configuration management, server automation, inventory management, playbooks, and Linux server administration.
 
 This project is part of my **DevOps Engineering Journey** and focuses on automating repetitive infrastructure and server-management tasks using Ansible.
