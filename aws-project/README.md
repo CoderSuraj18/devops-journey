@@ -1,5 +1,7 @@
 # AWS Cloud Infrastructure & Hands-On Practice ☁️
 
+This folder records AWS services, architecture concepts, configurations, and hands-on cloud practice. It is part of the practical work completed across my DevOps learning journey; the README organizes the covered topics and lab knowledge.
+
 > **Repository status:** This folder is documentation of AWS topics and hands-on practice. It does not currently contain reproducible infrastructure code or a complete deployable AWS architecture. Implementation evidence will be added as separate project work.
 
 
