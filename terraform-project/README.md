@@ -1,5 +1,8 @@
 # Terraform Infrastructure as Code & DevOps Practice 🏗️
 
+> **Repository status:** This folder currently contains Terraform topic documentation only; there are no `.tf` configurations, modules, state examples, or executable provisioning steps in this directory yet.
+
+
 A hands-on Terraform project documenting my practical learning of Infrastructure as Code (IaC), Terraform configuration, providers, resources, variables, state management, and automated infrastructure provisioning.
 
 This project is part of my **DevOps Engineering Journey** and focuses on understanding how infrastructure can be defined, managed, and provisioned using Terraform.
