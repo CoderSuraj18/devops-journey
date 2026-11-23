@@ -1,5 +1,8 @@
 # AWS Cloud Infrastructure & Hands-On Practice ☁️
 
+> **Repository status:** This folder is documentation of AWS topics and hands-on practice. It does not currently contain reproducible infrastructure code or a complete deployable AWS architecture. Implementation evidence will be added as separate project work.
+
+
 A hands-on AWS project documenting my practical experience with cloud infrastructure, networking, compute, storage, databases, security, load balancing, command-line operations, and application deployment.
 
 This project is part of my **DevOps Engineering Journey** and contains AWS services, concepts, configurations, and practical lab work completed through hands-on learning.
