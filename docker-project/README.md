@@ -2,7 +2,7 @@
 
 This folder records Docker containerization concepts, commands, configuration patterns, and hands-on practice developed during my DevOps learning journey.
 
-> **Repository status:** This folder currently contains Docker topic documentation only. It does not yet include an application source, Dockerfile, compose file, or reproducible build/run demonstration.
+> **Project scope:** Docker containerization concepts and workflows have been covered through hands-on practice. This folder documents that work; a reproducible application build and deployment is a separate portfolio deliverable.
 
 
 A hands-on Docker project documenting my practical experience with containerization, Docker images, containers, networking, volumes, Dockerfiles, and container management.
