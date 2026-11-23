@@ -1,5 +1,8 @@
 # Docker Containerization & DevOps Practice 🐳
 
+> **Repository status:** This folder currently contains Docker topic documentation only. It does not yet include an application source, Dockerfile, compose file, or reproducible build/run demonstration.
+
+
 A hands-on Docker project documenting my practical experience with containerization, Docker images, containers, networking, volumes, Dockerfiles, and container management.
 
 This project is part of my **DevOps Engineering Journey** and focuses on understanding how applications can be packaged, deployed, and managed using containers.
