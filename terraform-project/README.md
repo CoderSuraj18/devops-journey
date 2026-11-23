@@ -1,5 +1,7 @@
 # Terraform Infrastructure as Code & DevOps Practice 🏗️
 
+This folder records Terraform and Infrastructure as Code concepts, configuration patterns, and hands-on practice. It documents the practical skills developed during my DevOps learning journey.
+
 > **Repository status:** This folder currently contains Terraform topic documentation only; there are no `.tf` configurations, modules, state examples, or executable provisioning steps in this directory yet.
 
 
