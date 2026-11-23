@@ -2,7 +2,7 @@
 
 This folder records Kubernetes architecture, workload resources, deployment concepts, commands, and hands-on practice developed during my DevOps learning journey.
 
-> **Repository status:** This folder currently contains Kubernetes topic documentation only. It does not yet include deployable manifests, cluster configuration, or a reproducible application deployment.
+> **Project scope:** Kubernetes resources, workload management, and deployment workflows have been covered through hands-on practice. This folder documents that work; a complete reproducible application deployment is a separate portfolio deliverable.
 
 
 A hands-on Kubernetes project documenting my practical experience with container orchestration, Pods, Deployments, Services, namespaces, configuration, scaling, and application management.
