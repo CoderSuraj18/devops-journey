@@ -23,7 +23,7 @@ The day folders preserve the progression of exercises. Scripts are learning arti
 
 ## Tool/topic reference folders
 
-These folders currently contain topic documentation and architecture notes. They are not standalone, executable implementations yet.
+These folders document the tools, architectures, configurations, and hands-on work covered during my DevOps learning. Practical exercises and implementation evidence are distributed across the relevant learning folders and project work. A larger, independently reproducible end-to-end project is a separate portfolio deliverable.
 
 - [AWS Cloud Infrastructure](aws-project/README.md)
 - [Terraform / Infrastructure as Code](terraform-project/README.md)
@@ -42,7 +42,7 @@ The portfolio website is built with HTML and CSS and deployed to GitHub Pages th
 
 ## Next engineering projects
 
-The next step is to move from topic documentation and exercises into independently reproducible projects with source/configuration, deployment instructions, validation evidence, diagrams, and screenshots where appropriate. Planned focus areas include AWS infrastructure provisioned with Terraform, a containerized application pipeline, and a Kubernetes deployment with monitoring.
+The next step is to consolidate and showcase the work in independently reproducible end-to-end projects, with source/configuration, deployment instructions, validation evidence, diagrams, and screenshots where appropriate. Focus areas include AWS infrastructure provisioned with Terraform, a containerized application pipeline, and a Kubernetes deployment with monitoring.
 
 ## Repository principle
 
