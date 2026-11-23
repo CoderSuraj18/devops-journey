@@ -1,5 +1,8 @@
 # Kubernetes Container Orchestration & DevOps Practice ☸️
 
+> **Repository status:** This folder currently contains Kubernetes topic documentation only. It does not yet include deployable manifests, cluster configuration, or a reproducible application deployment.
+
+
 A hands-on Kubernetes project documenting my practical experience with container orchestration, Pods, Deployments, Services, namespaces, configuration, scaling, and application management.
 
 This project is part of my **DevOps Engineering Journey** and focuses on understanding how containerized applications are deployed, managed, and scaled using Kubernetes.
