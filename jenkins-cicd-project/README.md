@@ -1,5 +1,8 @@
 # Jenkins & CI/CD Automation Practice 🔄
 
+> **Repository status:** This folder currently contains Jenkins and CI/CD topic documentation only. The example Jenkinsfile is illustrative; there is no configured Jenkins instance or runnable pipeline stored in this folder.
+
+
 A hands-on Jenkins and CI/CD project documenting my practical learning of continuous integration, continuous delivery, pipeline automation, source-code management, build automation, testing, and deployment workflows.
 
 This project is part of my **DevOps Engineering Journey** and focuses on understanding how Jenkins can automate software delivery processes.
