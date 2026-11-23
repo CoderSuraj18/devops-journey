@@ -2,7 +2,7 @@
 
 This folder records Ansible configuration management, inventory, playbook concepts, YAML, and hands-on automation practice developed during my DevOps learning journey.
 
-> **Repository status:** This folder currently contains Ansible topic documentation only. It does not yet include an inventory, executable playbooks, roles, or a reproducible managed-node automation setup.
+> **Project scope:** Ansible configuration management, YAML, inventory, and playbook workflows have been covered through hands-on learning. This folder serves as the reference for that work; a separately reproducible automation project is a distinct portfolio deliverable.
 
 
 A hands-on Ansible project documenting my practical experience with configuration management, server automation, inventory management, playbooks, and Linux server administration.
