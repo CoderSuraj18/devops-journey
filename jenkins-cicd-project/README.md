@@ -1,5 +1,7 @@
 # Jenkins & CI/CD Automation Practice 🔄
 
+This folder records Jenkins, pipeline structure, CI/CD concepts, and hands-on automation practice developed during my DevOps learning journey.
+
 > **Repository status:** This folder currently contains Jenkins and CI/CD topic documentation only. The example Jenkinsfile is illustrative; there is no configured Jenkins instance or runnable pipeline stored in this folder.
 
 
