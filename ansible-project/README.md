@@ -1,5 +1,7 @@
 # Ansible Automation & Configuration Management Project ⚙️
 
+This folder records Ansible configuration management, inventory, playbook concepts, YAML, and hands-on automation practice developed during my DevOps learning journey.
+
 > **Repository status:** This folder currently contains Ansible topic documentation only. It does not yet include an inventory, executable playbooks, roles, or a reproducible managed-node automation setup.
 
 
