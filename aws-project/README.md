@@ -2,7 +2,7 @@
 
 This folder records AWS services, architecture concepts, configurations, and hands-on cloud practice. It is part of the practical work completed across my DevOps learning journey; the README organizes the covered topics and lab knowledge.
 
-> **Repository status:** This folder is documentation of AWS topics and hands-on practice. It does not currently contain reproducible infrastructure code or a complete deployable AWS architecture. Implementation evidence will be added as separate project work.
+> **Project scope:** The AWS services and lab work described here have been practiced hands-on. This README consolidates that experience; a reusable, end-to-end AWS architecture is a separate portfolio deliverable.
 
 
 A hands-on AWS project documenting my practical experience with cloud infrastructure, networking, compute, storage, databases, security, load balancing, command-line operations, and application deployment.
