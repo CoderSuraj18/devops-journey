@@ -1,5 +1,7 @@
 # Kubernetes Container Orchestration & DevOps Practice ☸️
 
+This folder records Kubernetes architecture, workload resources, deployment concepts, commands, and hands-on practice developed during my DevOps learning journey.
+
 > **Repository status:** This folder currently contains Kubernetes topic documentation only. It does not yet include deployable manifests, cluster configuration, or a reproducible application deployment.
 
 
