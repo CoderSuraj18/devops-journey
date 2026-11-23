@@ -1,79 +1,50 @@
-# DevOps Journey 🚀
+# DevOps Journey
 
-A hands-on DevOps portfolio documenting my journey through Linux, Git & GitHub, AWS, automation, containers, infrastructure as code, and CI/CD.
+A public repository documenting my hands-on development toward DevOps engineering, with practical exercises, troubleshooting notes, scripts, and a portfolio deployment workflow.
 
-## 👨‍💻 About
+## Current focus
 
-I am building my career toward **DevOps Engineering** through structured learning, hands-on labs, troubleshooting, automation, and practical projects.
+- Linux administration and command-line operations
+- Git and GitHub workflows (branches, commits, pull requests)
+- Bash scripting for validation and operational checks
+- Python fundamentals and server-log health auditing
+- AWS cloud infrastructure and networking concepts
 
-This repository contains my daily practice, notes, commands, configurations, and DevOps projects.
+## Learning log
 
-## 🛠️ Technologies & Tools
+| Day | Focus | Repository path |
+|---|---|---|
+| 01–04 | Linux fundamentals, filesystem, permissions, process monitoring | `day-01-linux` to `day-04-linux` |
+| 05 | Git and GitHub fundamentals | `day-05-git` |
+| 06–10 | Bash scripting, loops, functions, deployment validation, cron/system health | `day-06-bash` to `day-10-bash` |
+| 11 | Python fundamentals and server-health/log auditing exercises | `day-11-python` |
 
-* **Linux** — Ubuntu, filesystem, permissions, users, groups, processes, system monitoring
-* **Git & GitHub** — repositories, commits, branches, merging, remote repositories, GitHub workflows
-* **AWS** — EC2, VPC, S3, RDS, Load Balancing, IAM, AWS CLI, and cloud networking
-* **Ansible** — configuration management and automation
-* **Docker** — containerization and Docker fundamentals
-* **Kubernetes** — container orchestration fundamentals
-* **Terraform** — Infrastructure as Code fundamentals
-* **Jenkins** — CI/CD fundamentals and automation
-* **CI/CD** — continuous integration and continuous delivery workflows
+The day folders preserve the progression of exercises. Scripts are learning artifacts; they are not presented as production-ready monitoring or deployment systems.
 
-## 📚 Learning Journey
+## Tool/topic reference folders
 
-The repository is organized into daily learning and practice sections.
+These folders currently contain topic documentation and architecture notes. They are not standalone, executable implementations yet.
 
-```text
-devops-journey/
-│
-├── day-01-linux/
-├── day-02-linux/
-├── day-03-linux/
-├── day-04-linux/
-│
-├── README.md
-└── ...
-```
+- [AWS Cloud Infrastructure](aws-project/README.md)
+- [Terraform / Infrastructure as Code](terraform-project/README.md)
+- [Ansible Automation](ansible-project/README.md)
+- [Docker Containerization](docker-project/README.md)
+- [Kubernetes](kubernetes-project/README.md)
+- [Jenkins & CI/CD](jenkins-cicd-project/README.md)
 
-Each section contains practical notes, commands, exercises, and hands-on work from my DevOps learning journey.
+## Portfolio website
 
-## ☁️ AWS Hands-On Practice
+The portfolio website is built with HTML and CSS and deployed to GitHub Pages through GitHub Actions. The workflow validates the website files and HTML before publishing.
 
-My AWS practice includes:
+- [Open portfolio source](index.html)
+- [GitHub Actions workflow](.github/workflows/deploy.yml)
+- [Workflow runs](https://github.com/CoderSuraj18/devops-journey/actions)
 
-* EC2
-* VPC and Subnets
-* Internet Gateway
-* NAT Gateway
-* VPC Peering
-* Security Groups
-* Elastic Load Balancing
-* RDS
-* S3
-* IAM
-* AWS CLI
-* Cloud infrastructure and networking
+## Next engineering projects
 
-## 🎯 Portfolio Goal
+The next step is to move from topic documentation and exercises into independently reproducible projects with source/configuration, deployment instructions, validation evidence, diagrams, and screenshots where appropriate. Planned focus areas include AWS infrastructure provisioned with Terraform, a containerized application pipeline, and a Kubernetes deployment with monitoring.
 
-The goal of this repository is to demonstrate practical DevOps skills through:
+## Repository principle
 
-* Hands-on infrastructure
-* Automation
-* Cloud technologies
-* Containerization
-* Infrastructure as Code
-* CI/CD
-* Troubleshooting
-* Real-world DevOps projects
+Document what has been practiced or implemented, keep evidence close to the code, and clearly label simulations, learning exercises, and future plans.
 
-## 🚀 Progress
-
-This repository is continuously updated as I complete new DevOps topics, labs, and projects.
-
-More practical projects and automation workflows will be added as the journey progresses.
-
----
-
-**Built with continuous learning, hands-on practice, and a DevOps mindset.**
