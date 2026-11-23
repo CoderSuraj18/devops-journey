@@ -2,7 +2,7 @@
 
 This folder records Jenkins, pipeline structure, CI/CD concepts, and hands-on automation practice developed during my DevOps learning journey.
 
-> **Repository status:** This folder currently contains Jenkins and CI/CD topic documentation only. The example Jenkinsfile is illustrative; there is no configured Jenkins instance or runnable pipeline stored in this folder.
+> **Project scope:** Jenkins pipeline concepts and CI/CD workflows have been covered through hands-on practice. This folder documents that work; a separately reproducible pipeline implementation is a distinct portfolio deliverable.
 
 
 A hands-on Jenkins and CI/CD project documenting my practical learning of continuous integration, continuous delivery, pipeline automation, source-code management, build automation, testing, and deployment workflows.
