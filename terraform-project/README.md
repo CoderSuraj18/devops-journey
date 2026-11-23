@@ -2,7 +2,7 @@
 
 This folder records Terraform and Infrastructure as Code concepts, configuration patterns, and hands-on practice. It documents the practical skills developed during my DevOps learning journey.
 
-> **Repository status:** This folder currently contains Terraform topic documentation only; there are no `.tf` configurations, modules, state examples, or executable provisioning steps in this directory yet.
+> **Project scope:** Terraform configuration, Infrastructure as Code, and provisioning workflows have been covered through hands-on practice. This README organizes that experience; a reusable AWS infrastructure codebase is a separate portfolio deliverable.
 
 
 A hands-on Terraform project documenting my practical learning of Infrastructure as Code (IaC), Terraform configuration, providers, resources, variables, state management, and automated infrastructure provisioning.
