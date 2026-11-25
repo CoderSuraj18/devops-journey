@@ -1,79 +1,56 @@
-# DevOps Journey 🚀
+# DevOps Engineering Portfolio
 
-A hands-on DevOps portfolio documenting my journey through Linux, Git & GitHub, AWS, automation, containers, infrastructure as code, and CI/CD.
+This repository documents my technical work across cloud infrastructure, Linux administration, automation, containerization, infrastructure as code, and CI/CD. It brings together engineering milestones, operational scripts, technical references, and the deployment workflow for my portfolio website.
 
-## 👨‍💻 About
+## Engineering capabilities
 
-I am building my career toward **DevOps Engineering** through structured learning, hands-on labs, troubleshooting, automation, and practical projects.
+- **Linux administration:** filesystem operations, permissions, users and groups, process management, system inspection, and troubleshooting.
+- **Git and GitHub:** repository management, branching, commits, pull requests, collaboration workflows, and automated repository publishing.
+- **Bash automation:** file and directory validation, reusable functions, loops, operational checks, and scheduled task concepts.
+- **Python automation:** scripting fundamentals, input validation, exception handling, file operations, log inspection, and server-health status aggregation.
+- **AWS cloud infrastructure:** EC2, VPC networking, subnets, routing, gateways, security groups, VPC peering, S3, RDS, load balancing, IAM, AWS CLI, and application hosting.
+- **DevOps toolchain:** Terraform, Ansible, Docker, Kubernetes, Jenkins, and GitHub Actions.
 
-This repository contains my daily practice, notes, commands, configurations, and DevOps projects.
+## Technical milestones
 
-## 🛠️ Technologies & Tools
+The day-based directories retain the progression of technical work and the scripts or notes associated with each milestone.
 
-* **Linux** — Ubuntu, filesystem, permissions, users, groups, processes, system monitoring
-* **Git & GitHub** — repositories, commits, branches, merging, remote repositories, GitHub workflows
-* **AWS** — EC2, VPC, S3, RDS, Load Balancing, IAM, AWS CLI, and cloud networking
-* **Ansible** — configuration management and automation
-* **Docker** — containerization and Docker fundamentals
-* **Kubernetes** — container orchestration fundamentals
-* **Terraform** — Infrastructure as Code fundamentals
-* **Jenkins** — CI/CD fundamentals and automation
-* **CI/CD** — continuous integration and continuous delivery workflows
+| Milestones | Engineering focus | Repository paths |
+|---|---|---|
+| 01–04 | Linux administration, filesystem management, permissions, process and system monitoring | `day-01-linux` to `day-04-linux` |
+| 05 | Git and GitHub repository workflows | `day-05-git` |
+| 06–10 | Bash scripting, validation, loops, functions, deployment checks, and scheduled operations | `day-06-bash` to `day-10-bash` |
+| 11 | Python scripting, file validation, exception handling, log inspection, and server-health auditing | `day-11-python` |
 
-## 📚 Learning Journey
+These directories contain technical exercises and supporting scripts. They are presented according to their actual scope and are not described as production monitoring or deployment platforms.
 
-The repository is organized into daily learning and practice sections.
+## DevOps technology references
 
-```text
-devops-journey/
-│
-├── day-01-linux/
-├── day-02-linux/
-├── day-03-linux/
-├── day-04-linux/
-│
-├── README.md
-└── ...
-```
+The following documents consolidate the architecture, service coverage, workflows, and technical areas addressed with each tool:
 
-Each section contains practical notes, commands, exercises, and hands-on work from my DevOps learning journey.
+- [AWS Cloud Infrastructure](aws-project/README.md)
+- [Terraform — Infrastructure as Code](terraform-project/README.md)
+- [Ansible — Configuration Management](ansible-project/README.md)
+- [Docker — Containerization](docker-project/README.md)
+- [Kubernetes — Container Orchestration](kubernetes-project/README.md)
+- [Jenkins and CI/CD](jenkins-cicd-project/README.md)
 
-## ☁️ AWS Hands-On Practice
+The documents describe technical coverage and engineering workflows. Runnable project configurations and independently reproducible end-to-end implementations will be linked from the relevant directories as those assets are committed.
 
-My AWS practice includes:
+## Portfolio website and CI/CD
 
-* EC2
-* VPC and Subnets
-* Internet Gateway
-* NAT Gateway
-* VPC Peering
-* Security Groups
-* Elastic Load Balancing
-* RDS
-* S3
-* IAM
-* AWS CLI
-* Cloud infrastructure and networking
+The portfolio website is built with HTML and CSS and published through GitHub Pages using GitHub Actions.
 
-## 🎯 Portfolio Goal
+- [Portfolio website source](index.html)
+- [GitHub Actions deployment workflow](.github/workflows/deploy.yml)
+- [Repository workflow runs](https://github.com/CoderSuraj18/devops-journey/actions)
 
-The goal of this repository is to demonstrate practical DevOps skills through:
+The deployment workflow is a committed implementation in this repository. Its scope is distinct from the Jenkins pipeline concepts documented in the Jenkins reference.
 
-* Hands-on infrastructure
-* Automation
-* Cloud technologies
-* Containerization
-* Infrastructure as Code
-* CI/CD
-* Troubleshooting
-* Real-world DevOps projects
+## Next engineering deliverables
 
-## 🚀 Progress
+The next portfolio deliverables will consolidate related capabilities into independently reproducible implementations. Planned areas include AWS infrastructure provisioned with Terraform, configuration management with Ansible, a containerized application delivery pipeline, and Kubernetes deployment with monitoring. Each deliverable should include source/configuration, architecture, execution steps, validation results, and relevant evidence.
 
-This repository is continuously updated as I complete new DevOps topics, labs, and projects.
+## Documentation standard
 
-More practical projects and automation workflows will be added as the journey progresses.
-
----
-
-**Built with continuous learning, hands-on practice, and a DevOps mindset.**
+Documentation should identify the technical objective, implementation scope, commands or configuration used, validation performed, and observed outcome. Distinguish completed work from conceptual references and planned extensions; make claims traceable to repository evidence.

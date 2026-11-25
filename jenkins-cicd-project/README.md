@@ -1,16 +1,12 @@
-# Jenkins & CI/CD Automation Practice 🔄
+# Jenkins Pipeline Automation & CI/CD 🔄
 
-A hands-on Jenkins and CI/CD project documenting my practical learning of continuous integration, continuous delivery, pipeline automation, source-code management, build automation, testing, and deployment workflows.
+An engineering reference covering Jenkins pipeline design and CI/CD workflows, including source integration, build automation, validation, artifacts, delivery stages, and deployment concepts.
 
-This project is part of my **DevOps Engineering Journey** and focuses on understanding how Jenkins can automate software delivery processes.
+## 🎯 Engineering Objective
 
----
+This section describes CI/CD pipeline design and how Jenkins coordinates repeatable build, validation, and delivery stages.
 
-## 🎯 Project Objective
-
-The objective of this project is to understand CI/CD concepts and how Jenkins can be used to automate repetitive software delivery tasks.
-
-My Jenkins and CI/CD learning focuses on:
+The documented CI/CD scope includes:
 
 * Continuous Integration
 * Continuous Delivery
@@ -470,12 +466,12 @@ This can connect CI/CD pipelines with configuration management and server automa
 
 ---
 
-# 🧪 Hands-On Jenkins & CI/CD Practice
+# 🧪 Jenkins Pipeline Workflow Coverage
 
-My Jenkins and CI/CD learning focuses on:
+The documented CI/CD scope includes:
 
-* Understanding CI/CD concepts
-* Understanding Jenkins architecture
+* CI/CD concepts
+* Jenkins architecture
 * Jenkins jobs
 * Pipeline concepts
 * Pipeline stages
@@ -520,7 +516,7 @@ This demonstrates how source control, Infrastructure as Code, configuration mana
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Planned Engineering Extensions
 
 Planned improvements include:
 
@@ -554,12 +550,12 @@ Additional Jenkinsfiles, pipeline configurations, scripts, and CI/CD implementat
 
 ---
 
-# 🎯 Project Outcome
+# 🎯 Engineering Capability Summary
 
-Through this project, I am developing practical understanding of Jenkins and CI/CD automation and how different DevOps tools can be integrated into an automated software delivery workflow.
+The documented scope covers Jenkins pipeline architecture and the integration of CI/CD stages with source control, build, validation, and deployment tooling.
 
-This project complements my hands-on work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, and Terraform**.
+This technical area complements my engineering work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, and Terraform**.
 
 ---
 
-**Part of my DevOps Journey — CI/CD, Automation & Continuous Delivery Practice 🚀**
+**Part of my DevOps Journey — CI/CD Automation & Continuous Delivery 🚀**

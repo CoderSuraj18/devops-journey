@@ -1,16 +1,12 @@
-# Ansible Automation & Configuration Management Project ⚙️
+# Ansible Configuration Management & Server Automation ⚙️
 
-A hands-on Ansible project documenting my practical experience with configuration management, server automation, inventory management, playbooks, and Linux server administration.
+An engineering reference for Ansible-based configuration management and Linux server automation, covering control-node architecture, inventories, SSH connectivity, ad-hoc execution, YAML playbooks, tasks, modules, and validation.
 
-This project is part of my **DevOps Engineering Journey** and focuses on automating repetitive infrastructure and server-management tasks using Ansible.
+## 🎯 Engineering Objective
 
----
+This section describes how Ansible automates Linux server administration through inventory-driven execution and declarative configuration management.
 
-## 🎯 Project Objective
-
-The objective of this project is to understand how Ansible can be used to automate Linux server administration and configuration management.
-
-My hands-on practice focuses on:
+My implementation work focuses on:
 
 - Ansible architecture
 - Inventory management
@@ -31,7 +27,7 @@ My hands-on practice focuses on:
 
 # ⚙️ Ansible Architecture
 
-The basic Ansible workflow used in my practice:
+The Ansible control-node workflow:
 
 ```text
                  Ansible Control Node

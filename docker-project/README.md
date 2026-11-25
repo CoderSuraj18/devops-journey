@@ -1,16 +1,12 @@
-# Docker Containerization & DevOps Practice 🐳
+# Docker Containerization & Runtime Operations 🐳
 
-A hands-on Docker project documenting my practical experience with containerization, Docker images, containers, networking, volumes, Dockerfiles, and container management.
+An engineering reference covering Docker architecture and container operations, including image management, Dockerfiles, container lifecycle, port publishing, networking, volumes, and troubleshooting.
 
-This project is part of my **DevOps Engineering Journey** and focuses on understanding how applications can be packaged, deployed, and managed using containers.
+## 🎯 Engineering Objective
 
----
+This section describes Docker containerization and the role of images and containers in application delivery.
 
-## 🎯 Project Objective
-
-The objective of this project is to understand Docker containerization and how containers are used in modern DevOps environments.
-
-My Docker practice focuses on:
+Technical scope includes:
 
 - Container fundamentals
 - Docker architecture

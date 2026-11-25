@@ -1,16 +1,12 @@
-# AWS Cloud Infrastructure & Hands-On Practice ☁️
+# AWS Cloud Infrastructure & Operations ☁️
 
-A hands-on AWS project documenting my practical experience with cloud infrastructure, networking, compute, storage, databases, security, load balancing, command-line operations, and application deployment.
+An engineering reference covering AWS infrastructure design and operations across compute, networking, storage, databases, identity, load balancing, command-line administration, and Linux application hosting.
 
-This project is part of my **DevOps Engineering Journey** and contains AWS services, concepts, configurations, and practical lab work completed through hands-on learning.
+## 🎯 Engineering Objective
 
----
+This section describes how AWS compute, networking, storage, identity, and application-hosting services work together in cloud environments.
 
-## 🎯 Project Objective
-
-The objective of this project is to develop strong practical knowledge of AWS cloud infrastructure and understand how different AWS services work together in real-world DevOps environments.
-
-My AWS practice focuses on:
+Technical scope includes:
 
 * Cloud infrastructure
 * Networking
@@ -27,13 +23,13 @@ My AWS practice focuses on:
 
 ---
 
-# ☁️ AWS Services & Technologies Practiced
+# ☁️ AWS Services & Technologies Covered
 
 ## 🖥️ Compute — Amazon EC2
 
-Hands-on practice with Amazon EC2 instances and cloud-based Linux environments.
+EC2 coverage includes instance provisioning, configuration, SSH access, and Linux-based application hosting.
 
-### Topics Practiced
+### Technical Scope
 
 * EC2 instance creation
 * Instance configuration
@@ -51,9 +47,9 @@ Hands-on practice with Amazon EC2 instances and cloud-based Linux environments.
 
 ## 🌐 Networking — Amazon VPC
 
-Hands-on practice with AWS networking and VPC architecture.
+Networking coverage includes VPC design, subnet segmentation, routing, gateways, and security controls.
 
-### Topics Practiced
+### Technical Scope
 
 * Amazon VPC
 * VPC creation
@@ -89,24 +85,24 @@ Hands-on practice with AWS networking and VPC architecture.
 
 ## 🔗 VPC Peering
 
-Hands-on practice with communication between separate VPC networks.
+VPC peering coverage includes connectivity between separate VPC networks.
 
-### Topics Practiced
+### Technical Scope
 
 * Creating VPC peering connections
-* Understanding VPC-to-VPC communication
+* VPC-to-VPC communication
 * Route table configuration
 * Cross-VPC connectivity concepts
 * Verifying peering configuration
-* Understanding routing requirements for VPC Peering
+* routing requirements for VPC Peering
 
 ---
 
 ## 🪣 Amazon S3
 
-Hands-on practice with AWS object storage.
+S3 coverage includes bucket configuration, object storage, versioning, and replication concepts.
 
-### Topics Practiced
+### Technical Scope
 
 * S3 buckets
 * Bucket configuration
@@ -120,9 +116,9 @@ Hands-on practice with AWS object storage.
 
 ## 🗄️ Amazon RDS
 
-Hands-on practice with managed relational database infrastructure.
+RDS coverage includes database deployment patterns, network access, and security considerations.
 
-### Topics Practiced
+### Technical Scope
 
 * Amazon RDS
 * Database deployment concepts
@@ -136,9 +132,9 @@ Hands-on practice with managed relational database infrastructure.
 
 ## ⚖️ Elastic Load Balancing
 
-Hands-on practice with AWS load balancing concepts.
+Load-balancing coverage includes listeners, target groups, health checks, and traffic distribution.
 
-### Topics Practiced
+### Technical Scope
 
 * Elastic Load Balancing
 * Load Balancer configuration
@@ -172,9 +168,9 @@ Hands-on practice with AWS load balancing concepts.
 
 # 🔐 Identity & Security — AWS IAM
 
-Hands-on practice with AWS identity, permissions, and access control.
+IAM coverage includes identities, policies, permissions, and least-privilege access concepts.
 
-### Topics Practiced
+### Technical Scope
 
 * IAM
 * IAM users
@@ -189,9 +185,9 @@ Hands-on practice with AWS identity, permissions, and access control.
 
 # 💻 AWS CLI
 
-Hands-on practice using the AWS Command Line Interface to interact with AWS services.
+AWS CLI coverage includes profile configuration, regional settings, and command-line resource administration.
 
-### Topics Practiced
+### Technical Scope
 
 * AWS CLI installation and configuration
 * AWS CLI profiles
@@ -220,9 +216,9 @@ Region: eu-west-2
 
 # 🐧 Linux & AWS
 
-Linux was an important part of my AWS hands-on practice.
+Linux was an important part of my AWS implementation work.
 
-### Topics Practiced
+### Technical Scope
 
 * Linux administration on EC2
 * SSH access
@@ -239,7 +235,7 @@ Linux was an important part of my AWS hands-on practice.
 
 # 🚀 Application Deployment — LAMP
 
-Hands-on deployment of a LAMP-based application environment on AWS.
+The documented LAMP deployment workflow covers EC2 hosting, Linux configuration, Apache, PHP, application deployment, and network access.
 
 ### Environment
 
@@ -259,7 +255,7 @@ AWS
  └── Networking & Security
 ```
 
-### Topics Practiced
+### Technical Scope
 
 * EC2-based application hosting
 * Linux server configuration
@@ -271,9 +267,9 @@ AWS
 
 ---
 
-# 🧪 Hands-On AWS Practice
+# 🧪 AWS Implementation Coverage
 
-My AWS hands-on practice includes:
+AWS work covered includes:
 
 * Creating and managing EC2 instances
 * Connecting to Linux EC2 instances using SSH
@@ -289,7 +285,7 @@ My AWS hands-on practice includes:
 * Enabling S3 Versioning
 * Practicing S3 Replication concepts
 * Working with Amazon RDS
-* Understanding public and private database access
+* public and private database access
 * Configuring Elastic Load Balancing
 * Creating Target Groups
 * Registering targets
@@ -306,7 +302,7 @@ My AWS hands-on practice includes:
 
 # 🏗️ AWS Infrastructure Concepts
 
-The AWS learning and hands-on work covered the following infrastructure areas:
+The AWS infrastructure work covers the following service areas:
 
 ```text
 AWS Cloud
@@ -350,9 +346,9 @@ AWS Cloud
 
 # 🛠️ DevOps Relevance
 
-This AWS project forms the cloud foundation of my DevOps engineering journey.
+This AWS project forms the cloud infrastructure foundation of my DevOps engineering portfolio.
 
-The hands-on work supports important DevOps areas including:
+This technical coverage supports DevOps capabilities including:
 
 * Cloud infrastructure
 * Linux administration
@@ -367,30 +363,30 @@ The hands-on work supports important DevOps areas including:
 * Scalable infrastructure concepts
 * Infrastructure as Code preparation
 
-The AWS knowledge developed through this project will be extended into automation and Infrastructure as Code using tools such as **Terraform and Ansible**.
+The AWS service coverage provides the foundation for infrastructure automation with **Terraform and Ansible**.
 
 ---
 
-# 📚 Learning Approach
+# 📚 Engineering Workflow
 
-My AWS learning has focused on **hands-on practice rather than only theoretical study**.
+The AWS workflow combines architecture review, configuration, functional validation, and troubleshooting.
 
-The workflow used throughout the learning process was:
+The engineering workflow used for each service area was:
 
 ```text
-Learn Concept
+Define Requirement
      ↓
-Understand AWS Architecture
+Review Service Architecture
      ↓
 Configure Service
      ↓
-Perform Hands-On Lab
+Configure and Execute
      ↓
-Test Connectivity / Functionality
+Validate Connectivity and Functionality
      ↓
-Troubleshoot Issues
+Investigate and Resolve Issues
      ↓
-Document Learning
+Record Configuration and Results
 ```
 
 ---
@@ -402,15 +398,15 @@ aws-project/
 └── README.md
 ```
 
-This README currently serves as the central documentation for my AWS hands-on work.
+This directory currently contains the technical reference in this README; reusable infrastructure configuration and execution evidence should be added alongside it when committed.
 
 Additional architecture diagrams, configurations, screenshots, Terraform code, automation, and project implementations can be added as the AWS portfolio develops.
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Planned Engineering Extensions
 
-The AWS project will continue evolving as part of my DevOps journey.
+The AWS reference will be extended as reusable infrastructure implementations and validation evidence are committed.
 
 Planned improvements include:
 
@@ -427,7 +423,7 @@ Planned improvements include:
 
 ---
 
-# 🎯 Project Outcome
+# 🎯 Engineering Capability Summary
 
 Through this project, I have developed practical experience with AWS cloud infrastructure and the core services used to build, connect, secure, and operate cloud environments.
 
@@ -435,4 +431,4 @@ This AWS work serves as the **cloud foundation for my broader DevOps engineering
 
 ---
 
-**Part of my DevOps Journey — AWS Cloud, Infrastructure & DevOps Practice 🚀**
+**Part of my DevOps Journey — AWS Cloud, Infrastructure & DevOps Engineering 🚀**

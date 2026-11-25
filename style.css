@@ -1228,3 +1228,28 @@ footer {
     }
 
 }
+
+/* =========================================
+   ACCESSIBILITY: KEYBOARD FOCUS & MOTION
+   ========================================= */
+
+a:focus-visible {
+    outline: 3px solid #1d4ed8;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

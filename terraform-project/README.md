@@ -1,16 +1,12 @@
-# Terraform Infrastructure as Code & DevOps Practice 🏗️
+# Terraform Infrastructure as Code & AWS Provisioning 🏗️
 
-A hands-on Terraform project documenting my practical learning of Infrastructure as Code (IaC), Terraform configuration, providers, resources, variables, state management, and automated infrastructure provisioning.
+An engineering reference covering Terraform-based Infrastructure as Code, including providers, resources, variables, outputs, state, planning, validation, provisioning workflows, and AWS infrastructure patterns.
 
-This project is part of my **DevOps Engineering Journey** and focuses on understanding how infrastructure can be defined, managed, and provisioned using Terraform.
+## 🎯 Engineering Objective
 
----
+This section describes how Terraform defines cloud infrastructure declaratively and manages changes through a consistent workflow.
 
-## 🎯 Project Objective
-
-The objective of this project is to understand Infrastructure as Code and how Terraform can be used to manage cloud infrastructure in a consistent and repeatable way.
-
-My Terraform practice focuses on:
+Technical scope includes:
 
 * Infrastructure as Code
 * Terraform architecture
@@ -289,12 +285,12 @@ State management is an important part of Terraform because Terraform uses state 
 
 ---
 
-# 🧪 Hands-On Terraform Practice
+# 🧪 Terraform Workflow Coverage
 
-My Terraform learning and practice focuses on:
+The documented Terraform scope includes:
 
-* Understanding Infrastructure as Code
-* Understanding Terraform architecture
+* Infrastructure as Code design and configuration
+* Terraform architecture and execution lifecycle
 * Terraform configuration files
 * Providers
 * Resources
@@ -394,7 +390,7 @@ This connects Infrastructure as Code with containerization and orchestration.
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Planned Engineering Extensions
 
 Planned improvements include:
 
@@ -425,16 +421,16 @@ terraform-project/
 └── README.md
 ```
 
-Additional Terraform configuration files, modules, variable files, and infrastructure implementations can be added as the project develops.
+This directory currently contains the README reference. Terraform configuration files, modules, variable definitions, and validation output should be committed here when the reproducible infrastructure implementation is added.
 
 ---
 
-# 🎯 Project Outcome
+# 🎯 Engineering Capability Summary
 
-Through this project, I am developing practical understanding of Infrastructure as Code and Terraform-based infrastructure automation.
+The documented scope covers Terraform's declarative configuration model, state concepts, and infrastructure change workflow.
 
-Terraform forms an important part of my DevOps engineering portfolio and complements my hands-on work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, Jenkins, and CI/CD**.
+Terraform forms an important part of my DevOps engineering portfolio and complements my engineering work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, Jenkins, and CI/CD**.
 
 ---
 
-**Part of my DevOps Journey — Infrastructure as Code, Automation & Cloud Practice 🚀**
+**Part of my DevOps Journey — Infrastructure as Code & Cloud Automation 🚀**
