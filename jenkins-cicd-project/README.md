@@ -1,17 +1,8 @@
-# Jenkins & CI/CD Automation Practice 🔄
+# Jenkins Pipeline Automation & CI/CD 🔄
 
-This folder records Jenkins, pipeline structure, CI/CD concepts, and hands-on automation practice developed during my DevOps learning journey.
+An engineering reference covering Jenkins pipeline design and CI/CD workflows, including source integration, build automation, validation, artifacts, delivery stages, and deployment concepts.
 
-> **Project scope:** Jenkins pipeline concepts and CI/CD workflows have been covered through hands-on practice. This folder documents that work; a separately reproducible pipeline implementation is a distinct portfolio deliverable.
-
-
-A hands-on Jenkins and CI/CD project documenting my practical learning of continuous integration, continuous delivery, pipeline automation, source-code management, build automation, testing, and deployment workflows.
-
-This project is part of my **DevOps Engineering Journey** and focuses on understanding how Jenkins can automate software delivery processes.
-
----
-
-## 🎯 Project Objective
+## 🎯 Engineering Objective
 
 The objective of this project is to understand CI/CD concepts and how Jenkins can be used to automate repetitive software delivery tasks.
 
@@ -525,7 +516,7 @@ This demonstrates how source control, Infrastructure as Code, configuration mana
 
 ---
 
-# 🚀 Future Improvements
+# 🚀 Planned Engineering Extensions
 
 Planned improvements include:
 
@@ -559,9 +550,9 @@ Additional Jenkinsfiles, pipeline configurations, scripts, and CI/CD implementat
 
 ---
 
-# 🎯 Project Outcome
+# 🎯 Engineering Capability Summary
 
-Through this project, I am developing practical understanding of Jenkins and CI/CD automation and how different DevOps tools can be integrated into an automated software delivery workflow.
+Through this project, The documented scope covers of Jenkins and CI/CD automation and how different DevOps tools can be integrated into an automated software delivery workflow.
 
 This project complements my hands-on work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, and Terraform**.
 
