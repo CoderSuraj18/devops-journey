@@ -1234,7 +1234,7 @@ footer {
    ========================================= */
 
 a:focus-visible {
-    outline: 3px solid #60a5fa;
+    outline: 3px solid #1d4ed8;
     outline-offset: 3px;
     border-radius: 4px;
 }
