@@ -4,7 +4,7 @@ An engineering reference covering Terraform-based Infrastructure as Code, includ
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to understand Infrastructure as Code and how Terraform can be used to manage cloud infrastructure in a consistent and repeatable way.
+This section describes how Terraform defines cloud infrastructure declaratively and manages changes through a consistent workflow.
 
 Technical scope includes:
 
@@ -285,12 +285,12 @@ State management is an important part of Terraform because Terraform uses state 
 
 ---
 
-# 🧪 Hands-On Terraform Practice
+# 🧪 Terraform Workflow Coverage
 
-My Terraform learning and practice focuses on:
+The documented Terraform scope includes:
 
-* Understanding Infrastructure as Code
-* Understanding Terraform architecture
+* Infrastructure as Code design and configuration
+* Terraform architecture and execution lifecycle
 * Terraform configuration files
 * Providers
 * Resources
@@ -427,10 +427,10 @@ This directory currently contains the README reference. Terraform configuration 
 
 # 🎯 Engineering Capability Summary
 
-Through this project, The documented scope covers of Infrastructure as Code and Terraform-based infrastructure automation.
+The documented scope covers Terraform's declarative configuration model, state concepts, and infrastructure change workflow.
 
-Terraform forms an important part of my DevOps engineering portfolio and complements my hands-on work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, Jenkins, and CI/CD**.
+Terraform forms an important part of my DevOps engineering portfolio and complements my engineering work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, Jenkins, and CI/CD**.
 
 ---
 
-**Part of my DevOps Journey — Infrastructure as Code, Automation & Cloud Practice 🚀**
+**Part of my DevOps Journey — Infrastructure as Code & Cloud Automation 🚀**
