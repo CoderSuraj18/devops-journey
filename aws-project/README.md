@@ -4,7 +4,7 @@ An engineering reference covering AWS infrastructure design and operations acros
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to develop strong practical knowledge of AWS cloud infrastructure and understand how different AWS services work together in real-world DevOps environments.
+This section describes how AWS compute, networking, storage, identity, and application-hosting services work together in cloud environments.
 
 Technical scope includes:
 
@@ -27,7 +27,7 @@ Technical scope includes:
 
 ## 🖥️ Compute — Amazon EC2
 
-Hands-on practice with Amazon EC2 instances and cloud-based Linux environments.
+EC2 coverage includes instance provisioning, configuration, SSH access, and Linux-based application hosting.
 
 ### Technical Scope
 
@@ -47,7 +47,7 @@ Hands-on practice with Amazon EC2 instances and cloud-based Linux environments.
 
 ## 🌐 Networking — Amazon VPC
 
-Hands-on practice with AWS networking and VPC architecture.
+Networking coverage includes VPC design, subnet segmentation, routing, gateways, and security controls.
 
 ### Technical Scope
 
@@ -85,22 +85,22 @@ Hands-on practice with AWS networking and VPC architecture.
 
 ## 🔗 VPC Peering
 
-Hands-on practice with communication between separate VPC networks.
+VPC peering coverage includes connectivity between separate VPC networks.
 
 ### Technical Scope
 
 * Creating VPC peering connections
-* Understanding VPC-to-VPC communication
+* VPC-to-VPC communication
 * Route table configuration
 * Cross-VPC connectivity concepts
 * Verifying peering configuration
-* Understanding routing requirements for VPC Peering
+* routing requirements for VPC Peering
 
 ---
 
 ## 🪣 Amazon S3
 
-Hands-on practice with AWS object storage.
+S3 coverage includes bucket configuration, object storage, versioning, and replication concepts.
 
 ### Technical Scope
 
@@ -116,7 +116,7 @@ Hands-on practice with AWS object storage.
 
 ## 🗄️ Amazon RDS
 
-Hands-on practice with managed relational database infrastructure.
+RDS coverage includes database deployment patterns, network access, and security considerations.
 
 ### Technical Scope
 
@@ -132,7 +132,7 @@ Hands-on practice with managed relational database infrastructure.
 
 ## ⚖️ Elastic Load Balancing
 
-Hands-on practice with AWS load balancing concepts.
+Load-balancing coverage includes listeners, target groups, health checks, and traffic distribution.
 
 ### Technical Scope
 
@@ -168,7 +168,7 @@ Hands-on practice with AWS load balancing concepts.
 
 # 🔐 Identity & Security — AWS IAM
 
-Hands-on practice with AWS identity, permissions, and access control.
+IAM coverage includes identities, policies, permissions, and least-privilege access concepts.
 
 ### Technical Scope
 
@@ -185,7 +185,7 @@ Hands-on practice with AWS identity, permissions, and access control.
 
 # 💻 AWS CLI
 
-Hands-on practice using the AWS Command Line Interface to interact with AWS services.
+AWS CLI coverage includes profile configuration, regional settings, and command-line resource administration.
 
 ### Technical Scope
 
@@ -235,7 +235,7 @@ Linux was an important part of my AWS implementation work.
 
 # 🚀 Application Deployment — LAMP
 
-Hands-on deployment of a LAMP-based application environment on AWS.
+The documented LAMP deployment workflow covers EC2 hosting, Linux configuration, Apache, PHP, application deployment, and network access.
 
 ### Environment
 
@@ -285,7 +285,7 @@ AWS work covered includes:
 * Enabling S3 Versioning
 * Practicing S3 Replication concepts
 * Working with Amazon RDS
-* Understanding public and private database access
+* public and private database access
 * Configuring Elastic Load Balancing
 * Creating Target Groups
 * Registering targets
@@ -302,7 +302,7 @@ AWS work covered includes:
 
 # 🏗️ AWS Infrastructure Concepts
 
-The AWS learning and hands-on work covered the following infrastructure areas:
+The AWS infrastructure work covers the following service areas:
 
 ```text
 AWS Cloud
@@ -348,7 +348,7 @@ AWS Cloud
 
 This AWS project forms the cloud foundation of my DevOps engineering journey.
 
-The hands-on work supports important DevOps areas including:
+This technical coverage supports DevOps capabilities including:
 
 * Cloud infrastructure
 * Linux administration
@@ -363,15 +363,15 @@ The hands-on work supports important DevOps areas including:
 * Scalable infrastructure concepts
 * Infrastructure as Code preparation
 
-The AWS knowledge developed through this project will be extended into automation and Infrastructure as Code using tools such as **Terraform and Ansible**.
+The AWS service coverage provides the foundation for infrastructure automation with **Terraform and Ansible**.
 
 ---
 
 # 📚 Engineering Workflow
 
-My AWS learning has focused on **implementation work rather than only theoretical study**.
+The AWS workflow combines architecture review, configuration, functional validation, and troubleshooting.
 
-The workflow used throughout the engineering workflow was:
+The engineering workflow used for each service area was:
 
 ```text
 Define Requirement
@@ -406,7 +406,7 @@ Additional architecture diagrams, configurations, screenshots, Terraform code, a
 
 # 🚀 Planned Engineering Extensions
 
-The AWS project will continue evolving as part of my DevOps journey.
+The AWS reference will be extended as reusable infrastructure implementations and validation evidence are committed.
 
 Planned improvements include:
 
@@ -431,4 +431,4 @@ This AWS work serves as the **cloud foundation for my broader DevOps engineering
 
 ---
 
-**Part of my DevOps Journey — AWS Cloud, Infrastructure & DevOps Practice 🚀**
+**Part of my DevOps Journey — AWS Cloud, Infrastructure & DevOps Engineering 🚀**
