@@ -1,50 +1,56 @@
-# DevOps Journey
+# DevOps Engineering Portfolio
 
-A public repository documenting my hands-on development toward DevOps engineering, with practical exercises, troubleshooting notes, scripts, and a portfolio deployment workflow.
+This repository documents my technical work across cloud infrastructure, Linux administration, automation, containerization, infrastructure as code, and CI/CD. It brings together engineering milestones, operational scripts, technical references, and the deployment workflow for my portfolio website.
 
-## Current focus
+## Engineering capabilities
 
-- Linux administration and command-line operations
-- Git and GitHub workflows (branches, commits, pull requests)
-- Bash scripting for validation and operational checks
-- Python fundamentals and server-log health auditing
-- AWS cloud infrastructure and networking concepts
+- **Linux administration:** filesystem operations, permissions, users and groups, process management, system inspection, and troubleshooting.
+- **Git and GitHub:** repository management, branching, commits, pull requests, collaboration workflows, and automated repository publishing.
+- **Bash automation:** file and directory validation, reusable functions, loops, operational checks, and scheduled task concepts.
+- **Python automation:** scripting fundamentals, input validation, exception handling, file operations, log inspection, and server-health status aggregation.
+- **AWS cloud infrastructure:** EC2, VPC networking, subnets, routing, gateways, security groups, VPC peering, S3, RDS, load balancing, IAM, AWS CLI, and application hosting.
+- **DevOps toolchain:** Terraform, Ansible, Docker, Kubernetes, Jenkins, and GitHub Actions.
 
-## Learning log
+## Technical milestones
 
-| Day | Focus | Repository path |
+The day-based directories retain the progression of technical work and the scripts or notes associated with each milestone.
+
+| Milestones | Engineering focus | Repository paths |
 |---|---|---|
-| 01–04 | Linux fundamentals, filesystem, permissions, process monitoring | `day-01-linux` to `day-04-linux` |
-| 05 | Git and GitHub fundamentals | `day-05-git` |
-| 06–10 | Bash scripting, loops, functions, deployment validation, cron/system health | `day-06-bash` to `day-10-bash` |
-| 11 | Python fundamentals and server-health/log auditing exercises | `day-11-python` |
+| 01–04 | Linux administration, filesystem management, permissions, process and system monitoring | `day-01-linux` to `day-04-linux` |
+| 05 | Git and GitHub repository workflows | `day-05-git` |
+| 06–10 | Bash scripting, validation, loops, functions, deployment checks, and scheduled operations | `day-06-bash` to `day-10-bash` |
+| 11 | Python scripting, file validation, exception handling, log inspection, and server-health auditing | `day-11-python` |
 
-The day folders preserve the progression of exercises. Scripts are learning artifacts; they are not presented as production-ready monitoring or deployment systems.
+These directories contain technical exercises and supporting scripts. They are presented according to their actual scope and are not described as production monitoring or deployment platforms.
 
-## Tool/topic reference folders
+## DevOps technology references
 
-These folders document the tools, architectures, configurations, and hands-on work covered during my DevOps learning. Practical exercises and implementation evidence are distributed across the relevant learning folders and project work. A larger, independently reproducible end-to-end project is a separate portfolio deliverable.
+The following documents consolidate the architecture, service coverage, workflows, and technical areas addressed with each tool:
 
 - [AWS Cloud Infrastructure](aws-project/README.md)
-- [Terraform / Infrastructure as Code](terraform-project/README.md)
-- [Ansible Automation](ansible-project/README.md)
-- [Docker Containerization](docker-project/README.md)
-- [Kubernetes](kubernetes-project/README.md)
-- [Jenkins & CI/CD](jenkins-cicd-project/README.md)
+- [Terraform — Infrastructure as Code](terraform-project/README.md)
+- [Ansible — Configuration Management](ansible-project/README.md)
+- [Docker — Containerization](docker-project/README.md)
+- [Kubernetes — Container Orchestration](kubernetes-project/README.md)
+- [Jenkins and CI/CD](jenkins-cicd-project/README.md)
 
-## Portfolio website
+The documents describe technical coverage and engineering workflows. Runnable project configurations and independently reproducible end-to-end implementations will be linked from the relevant directories as those assets are committed.
 
-The portfolio website is built with HTML and CSS and deployed to GitHub Pages through GitHub Actions. The workflow validates the website files and HTML before publishing.
+## Portfolio website and CI/CD
 
-- [Open portfolio source](index.html)
-- [GitHub Actions workflow](.github/workflows/deploy.yml)
-- [Workflow runs](https://github.com/CoderSuraj18/devops-journey/actions)
+The portfolio website is built with HTML and CSS and published through GitHub Pages using GitHub Actions.
 
-## Next engineering projects
+- [Portfolio website source](index.html)
+- [GitHub Actions deployment workflow](.github/workflows/deploy.yml)
+- [Repository workflow runs](https://github.com/CoderSuraj18/devops-journey/actions)
 
-The next step is to consolidate and showcase the work in independently reproducible end-to-end projects, with source/configuration, deployment instructions, validation evidence, diagrams, and screenshots where appropriate. Focus areas include AWS infrastructure provisioned with Terraform, a containerized application pipeline, and a Kubernetes deployment with monitoring.
+The deployment workflow is a committed implementation in this repository. Its scope is distinct from the Jenkins pipeline concepts documented in the Jenkins reference.
 
-## Repository principle
+## Next engineering deliverables
 
-Document what has been practiced or implemented, keep evidence close to the code, and clearly label simulations, learning exercises, and future plans.
+The next portfolio deliverables will consolidate related capabilities into independently reproducible implementations. Planned areas include AWS infrastructure provisioned with Terraform, configuration management with Ansible, a containerized application delivery pipeline, and Kubernetes deployment with monitoring. Each deliverable should include source/configuration, architecture, execution steps, validation results, and relevant evidence.
 
+## Documentation standard
+
+Documentation should identify the technical objective, implementation scope, commands or configuration used, validation performed, and observed outcome. Distinguish completed work from conceptual references and planned extensions; make claims traceable to repository evidence.
