@@ -23,7 +23,7 @@ Technical scope includes:
 
 ---
 
-# ☁️ AWS Services & Technologies Practiced
+# ☁️ AWS Services & Technologies Covered
 
 ## 🖥️ Compute — Amazon EC2
 
@@ -346,7 +346,7 @@ AWS Cloud
 
 # 🛠️ DevOps Relevance
 
-This AWS project forms the cloud foundation of my DevOps engineering journey.
+This AWS project forms the cloud infrastructure foundation of my DevOps engineering portfolio.
 
 This technical coverage supports DevOps capabilities including:
 
