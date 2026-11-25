@@ -4,7 +4,7 @@ An engineering reference covering Kubernetes cluster architecture and workload o
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to understand Kubernetes and its role in modern DevOps and containerized application environments.
+This section describes Kubernetes cluster architecture and its role in deploying, managing, and scaling containerized workloads.
 
 Technical scope includes:
 
