@@ -4,7 +4,7 @@ An engineering reference covering Docker architecture and container operations, 
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to understand Docker containerization and how containers are used in modern DevOps environments.
+This section describes Docker containerization and the role of images and containers in application delivery.
 
 Technical scope includes:
 
