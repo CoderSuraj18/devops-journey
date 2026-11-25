@@ -1,21 +1,12 @@
-# Kubernetes Container Orchestration & DevOps Practice ☸️
+# Kubernetes Workload Orchestration ☸️
 
-This folder records Kubernetes architecture, workload resources, deployment concepts, commands, and hands-on practice developed during my DevOps learning journey.
+An engineering reference covering Kubernetes cluster architecture and workload operations, including Pods, Deployments, Services, namespaces, configuration, scaling, and application lifecycle management.
 
-> **Project scope:** Kubernetes resources, workload management, and deployment workflows have been covered through hands-on practice. This folder documents that work; a complete reproducible application deployment is a separate portfolio deliverable.
-
-
-A hands-on Kubernetes project documenting my practical experience with container orchestration, Pods, Deployments, Services, namespaces, configuration, scaling, and application management.
-
-This project is part of my **DevOps Engineering Journey** and focuses on understanding how containerized applications are deployed, managed, and scaled using Kubernetes.
-
----
-
-## 🎯 Project Objective
+## 🎯 Engineering Objective
 
 The objective of this project is to understand Kubernetes and its role in modern DevOps and containerized application environments.
 
-My Kubernetes practice focuses on:
+Technical scope includes:
 
 - Kubernetes architecture
 - Cluster components
