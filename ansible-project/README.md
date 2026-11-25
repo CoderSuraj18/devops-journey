@@ -4,7 +4,7 @@ An engineering reference for Ansible-based configuration management and Linux se
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to understand how Ansible can be used to automate Linux server administration and configuration management.
+This section describes how Ansible automates Linux server administration through inventory-driven execution and declarative configuration management.
 
 My implementation work focuses on:
 
