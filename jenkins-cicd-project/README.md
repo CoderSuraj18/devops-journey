@@ -4,9 +4,9 @@ An engineering reference covering Jenkins pipeline design and CI/CD workflows, i
 
 ## 🎯 Engineering Objective
 
-The objective of this project is to understand CI/CD concepts and how Jenkins can be used to automate repetitive software delivery tasks.
+This section describes CI/CD pipeline design and how Jenkins coordinates repeatable build, validation, and delivery stages.
 
-My Jenkins and CI/CD learning focuses on:
+The documented CI/CD scope includes:
 
 * Continuous Integration
 * Continuous Delivery
@@ -466,12 +466,12 @@ This can connect CI/CD pipelines with configuration management and server automa
 
 ---
 
-# 🧪 Hands-On Jenkins & CI/CD Practice
+# 🧪 Jenkins Pipeline Workflow Coverage
 
-My Jenkins and CI/CD learning focuses on:
+The documented CI/CD scope includes:
 
-* Understanding CI/CD concepts
-* Understanding Jenkins architecture
+* CI/CD concepts
+* Jenkins architecture
 * Jenkins jobs
 * Pipeline concepts
 * Pipeline stages
@@ -552,10 +552,10 @@ Additional Jenkinsfiles, pipeline configurations, scripts, and CI/CD implementat
 
 # 🎯 Engineering Capability Summary
 
-Through this project, The documented scope covers of Jenkins and CI/CD automation and how different DevOps tools can be integrated into an automated software delivery workflow.
+The documented scope covers Jenkins pipeline architecture and the integration of CI/CD stages with source control, build, validation, and deployment tooling.
 
-This project complements my hands-on work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, and Terraform**.
+This technical area complements my engineering work with **AWS, Linux, Git & GitHub, Ansible, Docker, Kubernetes, and Terraform**.
 
 ---
 
-**Part of my DevOps Journey — CI/CD, Automation & Continuous Delivery Practice 🚀**
+**Part of my DevOps Journey — CI/CD Automation & Continuous Delivery 🚀**
